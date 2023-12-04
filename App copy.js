@@ -1,3 +1,6 @@
+import React from "react";
+import ReactDOM from "react-dom/client";
+
 // React.createElement() - Create and Render Basic Elements. 
 // This is the most fundamental way to create a React element.
 // It takes three arguments: type, props, and children.
@@ -28,6 +31,10 @@ const parent = React.createElement('div', {id: "parent"},
 );
 
 console.log(parent);
+
+const jsxHeading = <h1>Namaste React</h1>
+
+console.log(jsxHeading);
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 

@@ -1,0 +1,1403 @@
+{
+    "data": {
+        "tid": "004a94b3-6da8-4526-9cfd-b40e3c2487ad",
+        "sid": "at904455-db98-493b-9ae9-809c4e8845bd",
+        "deviceId": "519f940f-e95b-d073-e7d0-e157af792ce3",
+        "requestId": "b62a2c95-a456-4c86-9c66-59ac143251a4",
+        "apiTime": "2023-12-03T15:58:00.980Z",
+        "success": {
+            "statusMessage": "done successfully",
+            "pageOffset": {
+                "nextOffset": "CJY7ELQ4KID4pcLhsOCqODDUEDgE",
+                "widgetOffset": {
+                    "collectionV5RestaurantListWidget_SimRestoRelevance_food_seo": "11",
+                    "inlineFacetFilter": "",
+                    "restaurantCountWidget": ""
+                }
+            },
+            "cards": [
+                {
+                    "card": {
+                        "card": {
+                            "@type": "type.googleapis.com/swiggy.gandalf.widgets.v2.InlineViewFilterSortWidget",
+                            "sortConfigs": [
+                                {
+                                    "key": "relevance",
+                                    "title": "Relevance (Default)",
+                                    "selected": true,
+                                    "defaultSelection": true
+                                },
+                                {
+                                    "key": "deliveryTimeAsc",
+                                    "title": "Delivery Time"
+                                },
+                                {
+                                    "key": "modelBasedRatingDesc",
+                                    "title": "Rating"
+                                },
+                                {
+                                    "key": "costForTwoAsc",
+                                    "title": "Cost: Low to High"
+                                },
+                                {
+                                    "key": "costForTwoDesc",
+                                    "title": "Cost: High to Low"
+                                }
+                            ],
+                            "restaurantCount": 389,
+                            "facetList": [
+                                {
+                                    "label": "Delivery Time",
+                                    "id": "deliveryTime",
+                                    "selection": "SELECT_TYPE_MULTISELECT",
+                                    "facetInfo": [
+                                        {
+                                            "label": "Fast Delivery",
+                                            "id": "deliveryTimefacetquery1",
+                                            "analytics": {},
+                                            "openFilter": true
+                                        }
+                                    ],
+                                    "viewType": "VIEW_TYPE_HALF_CARD",
+                                    "subLabel": "Filter by"
+                                },
+                                {
+                                    "label": "Cuisines",
+                                    "id": "catalog_cuisines",
+                                    "selection": "SELECT_TYPE_MULTISELECT",
+                                    "facetInfo": [
+                                        {
+                                            "label": "American",
+                                            "id": "query_american",
+                                            "analytics": {},
+                                            "openFilter": true
+                                        },
+                                        {
+                                            "label": "Andhra",
+                                            "id": "query_andhra",
+                                            "analytics": {},
+                                            "openFilter": true
+                                        },
+                                        {
+                                            "label": "Arabian",
+                                            "id": "query_arabian",
+                                            "analytics": {},
+                                            "openFilter": true
+                                        },
+                                        {
+                                            "label": "Asian",
+                                            "id": "query_asian",
+                                            "analytics": {},
+                                            "openFilter": true
+                                        },
+                                        {
+                                            "label": "Bakery",
+                                            "id": "query_bakery",
+                                            "analytics": {},
+                                            "openFilter": true
+                                        },
+                                        {
+                                            "label": "Barbecue",
+                                            "id": "query_barbecue",
+                                            "analytics": {},
+                                            "openFilter": true
+                                        },
+                                        {
+                                            "label": "Beverages",
+                                            "id": "query_beverages",
+                                            "analytics": {},
+                                            "openFilter": true
+                                        },
+                                        {
+                                            "label": "Biryani",
+                                            "id": "query_biryani",
+                                            "analytics": {},
+                                            "openFilter": true
+                                        },
+                                        {
+                                            "label": "Burgers",
+                                            "id": "query_burgers",
+                                            "analytics": {},
+                                            "openFilter": true
+                                        },
+                                        {
+                                            "label": "Burmese",
+                                            "id": "query_burmese",
+                                            "analytics": {},
+                                            "openFilter": true
+                                        },
+                                        {
+                                            "label": "Cafe",
+                                            "id": "query_cafe",
+                                            "analytics": {},
+                                            "openFilter": true
+                                        },
+                                        {
+                                            "label": "Cakes and Pastries",
+                                            "id": "query_cakes_and_pastries",
+                                            "analytics": {},
+                                            "openFilter": true
+                                        },
+                                        {
+                                            "label": "Chaat",
+                                            "id": "query_chaat",
+                                            "analytics": {},
+                                            "openFilter": true
+                                        },
+                                        {
+                                            "label": "Chettinad",
+                                            "id": "query_chettinad",
+                                            "analytics": {},
+                                            "openFilter": true
+                                        },
+                                        {
+                                            "label": "Chinese",
+                                            "id": "query_chinese",
+                                            "analytics": {},
+                                            "openFilter": true
+                                        },
+                                        {
+                                            "label": "Combo",
+                                            "id": "query_combo",
+                                            "analytics": {},
+                                            "openFilter": true
+                                        },
+                                        {
+                                            "label": "Continental",
+                                            "id": "query_continental",
+                                            "analytics": {},
+                                            "openFilter": true
+                                        },
+                                        {
+                                            "label": "Desserts",
+                                            "id": "query_desserts",
+                                            "analytics": {},
+                                            "openFilter": true
+                                        },
+                                        {
+                                            "label": "European",
+                                            "id": "query_european",
+                                            "analytics": {},
+                                            "openFilter": true
+                                        },
+                                        {
+                                            "label": "Fast Food",
+                                            "id": "query_fast_food",
+                                            "analytics": {},
+                                            "openFilter": true
+                                        },
+                                        {
+                                            "label": "French",
+                                            "id": "query_french",
+                                            "analytics": {},
+                                            "openFilter": true
+                                        },
+                                        {
+                                            "label": "Grill",
+                                            "id": "query_grill",
+                                            "analytics": {},
+                                            "openFilter": true
+                                        },
+                                        {
+                                            "label": "Healthy Food",
+                                            "id": "query_healthy_food",
+                                            "analytics": {},
+                                            "openFilter": true
+                                        },
+                                        {
+                                            "label": "Hyderabadi",
+                                            "id": "query_hyderabadi",
+                                            "analytics": {},
+                                            "openFilter": true
+                                        },
+                                        {
+                                            "label": "Ice Cream",
+                                            "id": "query_ice_cream",
+                                            "analytics": {},
+                                            "openFilter": true
+                                        },
+                                        {
+                                            "label": "Ice Cream Cakes",
+                                            "id": "query_ice_cream_cakes",
+                                            "analytics": {},
+                                            "openFilter": true
+                                        },
+                                        {
+                                            "label": "Indian",
+                                            "id": "query_indian",
+                                            "analytics": {},
+                                            "openFilter": true
+                                        },
+                                        {
+                                            "label": "Italian",
+                                            "id": "query_italian",
+                                            "analytics": {},
+                                            "openFilter": true
+                                        },
+                                        {
+                                            "label": "Japanese",
+                                            "id": "query_japanese",
+                                            "analytics": {},
+                                            "openFilter": true
+                                        },
+                                        {
+                                            "label": "Juices",
+                                            "id": "query_juices",
+                                            "analytics": {},
+                                            "openFilter": true
+                                        },
+                                        {
+                                            "label": "Kebabs",
+                                            "id": "query_kebabs",
+                                            "analytics": {},
+                                            "openFilter": true
+                                        },
+                                        {
+                                            "label": "Kerala",
+                                            "id": "query_kerala",
+                                            "analytics": {},
+                                            "openFilter": true
+                                        },
+                                        {
+                                            "label": "Lebanese",
+                                            "id": "query_lebanese",
+                                            "analytics": {},
+                                            "openFilter": true
+                                        },
+                                        {
+                                            "label": "Lucknowi",
+                                            "id": "query_lucknowi",
+                                            "analytics": {},
+                                            "openFilter": true
+                                        },
+                                        {
+                                            "label": "Maharashtrian",
+                                            "id": "query_maharashtrian",
+                                            "analytics": {},
+                                            "openFilter": true
+                                        },
+                                        {
+                                            "label": "Mexican",
+                                            "id": "query_mexican",
+                                            "analytics": {},
+                                            "openFilter": true
+                                        },
+                                        {
+                                            "label": "Mughlai",
+                                            "id": "query_mughlai",
+                                            "analytics": {},
+                                            "openFilter": true
+                                        },
+                                        {
+                                            "label": "Nepalese",
+                                            "id": "query_nepalese",
+                                            "analytics": {},
+                                            "openFilter": true
+                                        },
+                                        {
+                                            "label": "North Indian",
+                                            "id": "query_north_indian",
+                                            "analytics": {},
+                                            "openFilter": true
+                                        },
+                                        {
+                                            "label": "Pan-Asian",
+                                            "id": "query_pan-asian",
+                                            "analytics": {},
+                                            "openFilter": true
+                                        },
+                                        {
+                                            "label": "Pastas",
+                                            "id": "query_pastas",
+                                            "analytics": {},
+                                            "openFilter": true
+                                        },
+                                        {
+                                            "label": "Pizzas",
+                                            "id": "query_pizzas",
+                                            "analytics": {},
+                                            "openFilter": true
+                                        },
+                                        {
+                                            "label": "Punjabi",
+                                            "id": "query_punjabi",
+                                            "analytics": {},
+                                            "openFilter": true
+                                        },
+                                        {
+                                            "label": "Rolls & Wraps",
+                                            "id": "query_rolls_&_wraps",
+                                            "analytics": {},
+                                            "openFilter": true
+                                        },
+                                        {
+                                            "label": "Salads",
+                                            "id": "query_salads",
+                                            "analytics": {},
+                                            "openFilter": true
+                                        },
+                                        {
+                                            "label": "Seafood",
+                                            "id": "query_seafood",
+                                            "analytics": {},
+                                            "openFilter": true
+                                        },
+                                        {
+                                            "label": "Snacks",
+                                            "id": "query_snacks",
+                                            "analytics": {},
+                                            "openFilter": true
+                                        },
+                                        {
+                                            "label": "South Indian",
+                                            "id": "query_south_indian",
+                                            "analytics": {},
+                                            "openFilter": true
+                                        },
+                                        {
+                                            "label": "Street Food",
+                                            "id": "query_street_food",
+                                            "analytics": {},
+                                            "openFilter": true
+                                        },
+                                        {
+                                            "label": "Sweets",
+                                            "id": "query_sweets",
+                                            "analytics": {},
+                                            "openFilter": true
+                                        },
+                                        {
+                                            "label": "Tandoor",
+                                            "id": "query_tandoor",
+                                            "analytics": {},
+                                            "openFilter": true
+                                        },
+                                        {
+                                            "label": "Thalis",
+                                            "id": "query_thalis",
+                                            "analytics": {},
+                                            "openFilter": true
+                                        },
+                                        {
+                                            "label": "Tibetan",
+                                            "id": "query_tibetan",
+                                            "analytics": {},
+                                            "openFilter": true
+                                        },
+                                        {
+                                            "label": "Waffle",
+                                            "id": "query_waffle",
+                                            "analytics": {},
+                                            "openFilter": true
+                                        }
+                                    ],
+                                    "viewType": "VIEW_TYPE_HALF_CARD",
+                                    "canSearch": true,
+                                    "subLabel": "Filter by cuisine",
+                                    "openFilter": true
+                                },
+                                {
+                                    "label": "Explore",
+                                    "id": "explore",
+                                    "selection": "SELECT_TYPE_MULTISELECT",
+                                    "facetInfo": [
+                                        {
+                                            "label": "New on Swiggy",
+                                            "id": "newfacetquery1",
+                                            "analytics": {},
+                                            "openFilter": true
+                                        }
+                                    ],
+                                    "viewType": "VIEW_TYPE_HALF_CARD"
+                                },
+                                {
+                                    "label": "Ratings",
+                                    "id": "rating",
+                                    "selection": "SELECT_TYPE_MULTISELECT",
+                                    "facetInfo": [
+                                        {
+                                            "label": "Ratings 4.5+",
+                                            "id": "ratingfacetquery3",
+                                            "analytics": {}
+                                        },
+                                        {
+                                            "label": "Ratings 4.0+",
+                                            "id": "ratingfacetquery4",
+                                            "analytics": {},
+                                            "openFilter": true
+                                        },
+                                        {
+                                            "label": "Ratings 3.5+",
+                                            "id": "ratingfacetquery5",
+                                            "analytics": {}
+                                        }
+                                    ],
+                                    "viewType": "VIEW_TYPE_HALF_CARD",
+                                    "subLabel": "Filter by"
+                                },
+                                {
+                                    "label": "Veg/Non-Veg",
+                                    "id": "isVeg",
+                                    "selection": "SELECT_TYPE_SINGLESELECT",
+                                    "facetInfo": [
+                                        {
+                                            "label": "Pure Veg",
+                                            "id": "isVegfacetquery2",
+                                            "analytics": {},
+                                            "openFilter": true
+                                        },
+                                        {
+                                            "label": "Non Veg",
+                                            "id": "isVegfacetquery3",
+                                            "analytics": {}
+                                        }
+                                    ],
+                                    "viewType": "VIEW_TYPE_FLATTENED",
+                                    "subLabel": "Filter by"
+                                },
+                                {
+                                    "label": "Offers",
+                                    "id": "restaurantOfferMultiTd",
+                                    "selection": "SELECT_TYPE_SINGLESELECT",
+                                    "facetInfo": [
+                                        {
+                                            "label": "Offers",
+                                            "id": "restaurantOfferMultiTdfacetquery3",
+                                            "analytics": {},
+                                            "openFilter": true
+                                        }
+                                    ],
+                                    "viewType": "VIEW_TYPE_FLATTENED",
+                                    "subLabel": "Restaurants with"
+                                },
+                                {
+                                    "label": "Cost for two",
+                                    "id": "costForTwo",
+                                    "selection": "SELECT_TYPE_MULTISELECT",
+                                    "facetInfo": [
+                                        {
+                                            "label": "Rs. 300-Rs. 600",
+                                            "id": "costForTwofacetquery3",
+                                            "analytics": {},
+                                            "openFilter": true
+                                        },
+                                        {
+                                            "label": "Greater than Rs. 600",
+                                            "id": "costForTwofacetquery4",
+                                            "analytics": {}
+                                        },
+                                        {
+                                            "label": "Less than Rs. 300",
+                                            "id": "costForTwofacetquery5",
+                                            "analytics": {},
+                                            "openFilter": true
+                                        }
+                                    ],
+                                    "viewType": "VIEW_TYPE_HALF_CARD",
+                                    "subLabel": "Filter by"
+                                }
+                            ]
+                        }
+                    }
+                },
+                {
+                    "card": {
+                        "card": {
+                            "@type": "type.googleapis.com/swiggy.gandalf.widgets.v2.GridWidget",
+                            "layout": {
+                                "columns": 4
+                            },
+                            "id": "restaurant_grid_listing",
+                            "gridElements": {
+                                "infoWithStyle": {
+                                    "@type": "type.googleapis.com/swiggy.presentation.food.v2.FavouriteRestaurantInfoWithStyle",
+                                    "restaurants": [
+                                        {
+                                            "info": {
+                                                "id": "96939",
+                                                "name": "Muniyandi Vilas",
+                                                "cloudinaryImageId": "mn8xpnx6mwnasu1fbgmm",
+                                                "locality": "Chengalpet",
+                                                "areaName": "Raatina Kenaru",
+                                                "costForTwo": "₹250 for two",
+                                                "cuisines": [
+                                                    "South Indian",
+                                                    "Biryani",
+                                                    "Chinese",
+                                                    "North Indian",
+                                                    "Arabian"
+                                                ],
+                                                "avgRating": 3.6,
+                                                "feeDetails": {
+                                                    "restaurantId": "96939",
+                                                    "fees": [
+                                                        {
+                                                            "name": "BASE_DISTANCE",
+                                                            "fee": 4600
+                                                        },
+                                                        {
+                                                            "name": "BASE_TIME"
+                                                        },
+                                                        {
+                                                            "name": "ANCILLARY_SURGE_FEE"
+                                                        }
+                                                    ],
+                                                    "totalFee": 4600
+                                                },
+                                                "parentId": "17541",
+                                                "avgRatingString": "3.6",
+                                                "totalRatingsString": "10K+",
+                                                "sla": {
+                                                    "deliveryTime": 49,
+                                                    "lastMileTravel": 14.7,
+                                                    "serviceability": "SERVICEABLE",
+                                                    "slaString": "49 mins",
+                                                    "lastMileTravelString": "14.7 km",
+                                                    "iconType": "ICON_TYPE_EMPTY"
+                                                },
+                                                "availability": {
+                                                    "nextCloseTime": "2023-12-03 23:00:00",
+                                                    "opened": true
+                                                },
+                                                "badges": {},
+                                                "isOpen": true,
+                                                "aggregatedDiscountInfoV2": {},
+                                                "type": "F",
+                                                "badgesV2": {
+                                                    "entityBadges": {
+                                                        "imageBased": {},
+                                                        "textBased": {},
+                                                        "textExtendedBadges": {}
+                                                    }
+                                                },
+                                                "orderabilityCommunication": {
+                                                    "title": {},
+                                                    "subTitle": {},
+                                                    "message": {},
+                                                    "customIcon": {}
+                                                },
+                                                "differentiatedUi": {
+                                                    "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+                                                    "differentiatedUiMediaDetails": {
+                                                        "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+                                                        "lottie": {},
+                                                        "video": {}
+                                                    }
+                                                },
+                                                "reviewsSummary": {},
+                                                "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+                                                "restaurantOfferPresentationInfo": {}
+                                            },
+                                            "analytics": {},
+                                            "cta": {
+                                                "link": "https://www.swiggy.com/restaurants/muniyandi-vilas-chengalpet-raatina-kenaru-kanchipuram-96939",
+                                                "text": "RESTAURANT_MENU",
+                                                "type": "WEBLINK"
+                                            },
+                                            "widgetId": "collectionV5RestaurantListWidget_SimRestoRelevance_food_seo"
+                                        },
+                                        {
+                                            "info": {
+                                                "id": "581737",
+                                                "name": "Mamma Mia",
+                                                "cloudinaryImageId": "uaeuxvqqddhfdh3h0frb",
+                                                "locality": "Varadharaja Nagar",
+                                                "areaName": "Chengalpattu",
+                                                "costForTwo": "₹300 for two",
+                                                "cuisines": [
+                                                    "Pizzas",
+                                                    "Pastas",
+                                                    "Burgers",
+                                                    "Fast Food",
+                                                    "Snacks",
+                                                    "Desserts",
+                                                    "Beverages"
+                                                ],
+                                                "avgRating": 3.8,
+                                                "veg": true,
+                                                "feeDetails": {
+                                                    "restaurantId": "581737",
+                                                    "fees": [
+                                                        {
+                                                            "name": "BASE_DISTANCE",
+                                                            "fee": 4600
+                                                        },
+                                                        {
+                                                            "name": "BASE_TIME"
+                                                        },
+                                                        {
+                                                            "name": "ANCILLARY_SURGE_FEE"
+                                                        }
+                                                    ],
+                                                    "totalFee": 4600
+                                                },
+                                                "parentId": "131223",
+                                                "avgRatingString": "3.8",
+                                                "totalRatingsString": "100+",
+                                                "sla": {
+                                                    "deliveryTime": 50,
+                                                    "lastMileTravel": 14.6,
+                                                    "serviceability": "SERVICEABLE",
+                                                    "slaString": "50 mins",
+                                                    "lastMileTravelString": "14.6 km",
+                                                    "iconType": "ICON_TYPE_EMPTY"
+                                                },
+                                                "availability": {
+                                                    "nextCloseTime": "2023-12-03 22:00:00",
+                                                    "opened": true
+                                                },
+                                                "badges": {
+                                                    "imageBadges": [
+                                                        {
+                                                            "imageId": "v1695133679/badges/Pure_Veg111.png",
+                                                            "description": "pureveg"
+                                                        }
+                                                    ]
+                                                },
+                                                "isOpen": true,
+                                                "aggregatedDiscountInfoV2": {},
+                                                "type": "F",
+                                                "badgesV2": {
+                                                    "entityBadges": {
+                                                        "imageBased": {
+                                                            "badgeObject": [
+                                                                {
+                                                                    "attributes": {
+                                                                        "description": "pureveg",
+                                                                        "imageId": "v1695133679/badges/Pure_Veg111.png"
+                                                                    }
+                                                                }
+                                                            ]
+                                                        },
+                                                        "textBased": {},
+                                                        "textExtendedBadges": {}
+                                                    }
+                                                },
+                                                "orderabilityCommunication": {
+                                                    "title": {},
+                                                    "subTitle": {},
+                                                    "message": {},
+                                                    "customIcon": {}
+                                                },
+                                                "differentiatedUi": {
+                                                    "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+                                                    "differentiatedUiMediaDetails": {
+                                                        "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+                                                        "lottie": {},
+                                                        "video": {}
+                                                    }
+                                                },
+                                                "reviewsSummary": {},
+                                                "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+                                                "restaurantOfferPresentationInfo": {}
+                                            },
+                                            "analytics": {},
+                                            "cta": {
+                                                "link": "https://www.swiggy.com/restaurants/mamma-mia-varadharaja-nagar-chengalpattu-kanchipuram-581737",
+                                                "text": "RESTAURANT_MENU",
+                                                "type": "WEBLINK"
+                                            },
+                                            "widgetId": "collectionV5RestaurantListWidget_SimRestoRelevance_food_seo"
+                                        },
+                                        {
+                                            "info": {
+                                                "id": "99472",
+                                                "name": "Lassi & Cream",
+                                                "cloudinaryImageId": "ddfyy1mk78nihhbd9gpd",
+                                                "locality": "Rahamath mall",
+                                                "areaName": "Anna Nagar",
+                                                "costForTwo": "₹250 for two",
+                                                "cuisines": [
+                                                    "Beverages",
+                                                    "Ice Cream",
+                                                    "Juices"
+                                                ],
+                                                "avgRating": 4,
+                                                "veg": true,
+                                                "feeDetails": {
+                                                    "restaurantId": "99472",
+                                                    "fees": [
+                                                        {
+                                                            "name": "BASE_DISTANCE",
+                                                            "fee": 4600
+                                                        },
+                                                        {
+                                                            "name": "BASE_TIME"
+                                                        },
+                                                        {
+                                                            "name": "ANCILLARY_SURGE_FEE"
+                                                        }
+                                                    ],
+                                                    "totalFee": 4600
+                                                },
+                                                "parentId": "7429",
+                                                "avgRatingString": "4.0",
+                                                "totalRatingsString": "1K+",
+                                                "sla": {
+                                                    "deliveryTime": 50,
+                                                    "lastMileTravel": 14.8,
+                                                    "serviceability": "SERVICEABLE",
+                                                    "slaString": "50 mins",
+                                                    "lastMileTravelString": "14.8 km",
+                                                    "iconType": "ICON_TYPE_EMPTY"
+                                                },
+                                                "availability": {
+                                                    "nextCloseTime": "2023-12-03 23:00:00",
+                                                    "opened": true
+                                                },
+                                                "badges": {
+                                                    "imageBadges": [
+                                                        {
+                                                            "imageId": "v1695133679/badges/Pure_Veg111.png",
+                                                            "description": "pureveg"
+                                                        }
+                                                    ]
+                                                },
+                                                "isOpen": true,
+                                                "aggregatedDiscountInfoV2": {},
+                                                "type": "F",
+                                                "badgesV2": {
+                                                    "entityBadges": {
+                                                        "imageBased": {
+                                                            "badgeObject": [
+                                                                {
+                                                                    "attributes": {
+                                                                        "description": "pureveg",
+                                                                        "imageId": "v1695133679/badges/Pure_Veg111.png"
+                                                                    }
+                                                                }
+                                                            ]
+                                                        },
+                                                        "textBased": {},
+                                                        "textExtendedBadges": {}
+                                                    }
+                                                },
+                                                "orderabilityCommunication": {
+                                                    "title": {},
+                                                    "subTitle": {},
+                                                    "message": {},
+                                                    "customIcon": {}
+                                                },
+                                                "differentiatedUi": {
+                                                    "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+                                                    "differentiatedUiMediaDetails": {
+                                                        "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+                                                        "lottie": {},
+                                                        "video": {}
+                                                    }
+                                                },
+                                                "reviewsSummary": {},
+                                                "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+                                                "restaurantOfferPresentationInfo": {}
+                                            },
+                                            "analytics": {},
+                                            "cta": {
+                                                "link": "https://www.swiggy.com/restaurants/lassi-and-cream-rahamath-mall-anna-nagar-kanchipuram-99472",
+                                                "text": "RESTAURANT_MENU",
+                                                "type": "WEBLINK"
+                                            },
+                                            "widgetId": "collectionV5RestaurantListWidget_SimRestoRelevance_food_seo"
+                                        },
+                                        {
+                                            "info": {
+                                                "id": "376582",
+                                                "name": "Mocktail Dhaba",
+                                                "cloudinaryImageId": "r1tkyes0ipemenqpsqwf",
+                                                "locality": "Chengalpattu",
+                                                "areaName": "Chengalpattu",
+                                                "costForTwo": "₹300 for two",
+                                                "cuisines": [
+                                                    "Biryani",
+                                                    "Chinese",
+                                                    "Indian",
+                                                    "South Indian",
+                                                    "Juices"
+                                                ],
+                                                "avgRating": 3.8,
+                                                "feeDetails": {
+                                                    "restaurantId": "376582",
+                                                    "fees": [
+                                                        {
+                                                            "name": "BASE_DISTANCE",
+                                                            "fee": 4600
+                                                        },
+                                                        {
+                                                            "name": "BASE_TIME"
+                                                        },
+                                                        {
+                                                            "name": "ANCILLARY_SURGE_FEE"
+                                                        }
+                                                    ],
+                                                    "totalFee": 4600
+                                                },
+                                                "parentId": "137522",
+                                                "avgRatingString": "3.8",
+                                                "totalRatingsString": "1K+",
+                                                "sla": {
+                                                    "deliveryTime": 41,
+                                                    "lastMileTravel": 13.1,
+                                                    "serviceability": "SERVICEABLE",
+                                                    "slaString": "41 mins",
+                                                    "lastMileTravelString": "13.1 km",
+                                                    "iconType": "ICON_TYPE_EMPTY"
+                                                },
+                                                "availability": {
+                                                    "nextCloseTime": "2023-12-03 23:00:00",
+                                                    "opened": true
+                                                },
+                                                "badges": {},
+                                                "isOpen": true,
+                                                "type": "F",
+                                                "badgesV2": {
+                                                    "entityBadges": {
+                                                        "imageBased": {},
+                                                        "textBased": {},
+                                                        "textExtendedBadges": {}
+                                                    }
+                                                },
+                                                "aggregatedDiscountInfoV3": {
+                                                    "header": "50% OFF",
+                                                    "subHeader": "UPTO ₹100"
+                                                },
+                                                "orderabilityCommunication": {
+                                                    "title": {},
+                                                    "subTitle": {},
+                                                    "message": {},
+                                                    "customIcon": {}
+                                                },
+                                                "differentiatedUi": {
+                                                    "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+                                                    "differentiatedUiMediaDetails": {
+                                                        "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+                                                        "lottie": {},
+                                                        "video": {}
+                                                    }
+                                                },
+                                                "reviewsSummary": {},
+                                                "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+                                                "restaurantOfferPresentationInfo": {}
+                                            },
+                                            "analytics": {},
+                                            "cta": {
+                                                "link": "https://www.swiggy.com/restaurants/mocktail-dhaba-chengalpattu-kanchipuram-376582",
+                                                "text": "RESTAURANT_MENU",
+                                                "type": "WEBLINK"
+                                            },
+                                            "widgetId": "collectionV5RestaurantListWidget_SimRestoRelevance_food_seo"
+                                        },
+                                        {
+                                            "info": {
+                                                "id": "689510",
+                                                "name": "Cream and Fudge",
+                                                "cloudinaryImageId": "33e152d03ba878ca40edcf846a8e99fd",
+                                                "locality": "CityunionBankBuilding",
+                                                "areaName": "Chengalpattu",
+                                                "costForTwo": "₹300 for two",
+                                                "cuisines": [
+                                                    "Ice Cream",
+                                                    "Beverages",
+                                                    "Waffle"
+                                                ],
+                                                "avgRating": 4.4,
+                                                "veg": true,
+                                                "feeDetails": {
+                                                    "restaurantId": "689510",
+                                                    "fees": [
+                                                        {
+                                                            "name": "BASE_DISTANCE",
+                                                            "fee": 4600
+                                                        },
+                                                        {
+                                                            "name": "BASE_TIME"
+                                                        },
+                                                        {
+                                                            "name": "ANCILLARY_SURGE_FEE"
+                                                        }
+                                                    ],
+                                                    "totalFee": 4600
+                                                },
+                                                "parentId": "287",
+                                                "avgRatingString": "4.4",
+                                                "totalRatingsString": "50+",
+                                                "sla": {
+                                                    "deliveryTime": 40,
+                                                    "lastMileTravel": 11.4,
+                                                    "serviceability": "SERVICEABLE",
+                                                    "slaString": "40 mins",
+                                                    "lastMileTravelString": "11.4 km",
+                                                    "iconType": "ICON_TYPE_EMPTY"
+                                                },
+                                                "availability": {
+                                                    "nextCloseTime": "2023-12-03 23:00:00",
+                                                    "opened": true
+                                                },
+                                                "badges": {},
+                                                "isOpen": true,
+                                                "type": "F",
+                                                "badgesV2": {
+                                                    "entityBadges": {
+                                                        "imageBased": {},
+                                                        "textBased": {},
+                                                        "textExtendedBadges": {}
+                                                    }
+                                                },
+                                                "aggregatedDiscountInfoV3": {
+                                                    "header": "20% OFF",
+                                                    "subHeader": "UPTO ₹100"
+                                                },
+                                                "orderabilityCommunication": {
+                                                    "title": {},
+                                                    "subTitle": {},
+                                                    "message": {},
+                                                    "customIcon": {}
+                                                },
+                                                "differentiatedUi": {
+                                                    "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+                                                    "differentiatedUiMediaDetails": {
+                                                        "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+                                                        "lottie": {},
+                                                        "video": {}
+                                                    }
+                                                },
+                                                "reviewsSummary": {},
+                                                "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+                                                "restaurantOfferPresentationInfo": {}
+                                            },
+                                            "analytics": {},
+                                            "cta": {
+                                                "link": "https://www.swiggy.com/restaurants/cream-and-fudge-cityunionbankbuilding-chengalpattu-kanchipuram-689510",
+                                                "text": "RESTAURANT_MENU",
+                                                "type": "WEBLINK"
+                                            },
+                                            "widgetId": "collectionV5RestaurantListWidget_SimRestoRelevance_food_seo"
+                                        },
+                                        {
+                                            "info": {
+                                                "id": "654774",
+                                                "name": "Prince Restaurant",
+                                                "cloudinaryImageId": "78880e91350fe5b56bb8f8ace37e7bc8",
+                                                "locality": "Kattankulathur block",
+                                                "areaName": "Chengalpattu",
+                                                "costForTwo": "₹300 for two",
+                                                "cuisines": [
+                                                    "Chinese",
+                                                    "North Indian",
+                                                    "Beverages",
+                                                    "Ice Cream",
+                                                    "Juices"
+                                                ],
+                                                "avgRating": 4,
+                                                "feeDetails": {
+                                                    "restaurantId": "654774",
+                                                    "fees": [
+                                                        {
+                                                            "name": "BASE_DISTANCE",
+                                                            "fee": 4600
+                                                        },
+                                                        {
+                                                            "name": "BASE_TIME"
+                                                        },
+                                                        {
+                                                            "name": "ANCILLARY_SURGE_FEE"
+                                                        }
+                                                    ],
+                                                    "totalFee": 4600
+                                                },
+                                                "parentId": "7722",
+                                                "avgRatingString": "4.0",
+                                                "totalRatingsString": "100+",
+                                                "sla": {
+                                                    "deliveryTime": 41,
+                                                    "lastMileTravel": 13.2,
+                                                    "serviceability": "SERVICEABLE",
+                                                    "slaString": "41 mins",
+                                                    "lastMileTravelString": "13.2 km",
+                                                    "iconType": "ICON_TYPE_EMPTY"
+                                                },
+                                                "availability": {
+                                                    "nextCloseTime": "2023-12-03 23:30:00",
+                                                    "opened": true
+                                                },
+                                                "badges": {},
+                                                "isOpen": true,
+                                                "aggregatedDiscountInfoV2": {},
+                                                "type": "F",
+                                                "badgesV2": {
+                                                    "entityBadges": {
+                                                        "imageBased": {},
+                                                        "textBased": {},
+                                                        "textExtendedBadges": {}
+                                                    }
+                                                },
+                                                "orderabilityCommunication": {
+                                                    "title": {},
+                                                    "subTitle": {},
+                                                    "message": {},
+                                                    "customIcon": {}
+                                                },
+                                                "differentiatedUi": {
+                                                    "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+                                                    "differentiatedUiMediaDetails": {
+                                                        "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+                                                        "lottie": {},
+                                                        "video": {}
+                                                    }
+                                                },
+                                                "reviewsSummary": {},
+                                                "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+                                                "restaurantOfferPresentationInfo": {}
+                                            },
+                                            "analytics": {},
+                                            "cta": {
+                                                "link": "https://www.swiggy.com/restaurants/prince-restaurant-kattankulathur-block-chengalpattu-kanchipuram-654774",
+                                                "text": "RESTAURANT_MENU",
+                                                "type": "WEBLINK"
+                                            },
+                                            "widgetId": "collectionV5RestaurantListWidget_SimRestoRelevance_food_seo"
+                                        },
+                                        {
+                                            "info": {
+                                                "id": "723144",
+                                                "name": "Norukku Theeni",
+                                                "cloudinaryImageId": "75aa50f2330eaf980ab96090bf3977a6",
+                                                "locality": "Anna Nagar",
+                                                "areaName": "Chengalpattu",
+                                                "costForTwo": "₹250 for two",
+                                                "cuisines": [
+                                                    "Snacks"
+                                                ],
+                                                "avgRating": 3.8,
+                                                "feeDetails": {
+                                                    "restaurantId": "723144",
+                                                    "fees": [
+                                                        {
+                                                            "name": "BASE_DISTANCE",
+                                                            "fee": 4600
+                                                        },
+                                                        {
+                                                            "name": "BASE_TIME"
+                                                        },
+                                                        {
+                                                            "name": "ANCILLARY_SURGE_FEE"
+                                                        }
+                                                    ],
+                                                    "totalFee": 4600
+                                                },
+                                                "parentId": "150223",
+                                                "avgRatingString": "3.8",
+                                                "totalRatingsString": "20+",
+                                                "sla": {
+                                                    "deliveryTime": 51,
+                                                    "lastMileTravel": 14.7,
+                                                    "serviceability": "SERVICEABLE",
+                                                    "slaString": "51 mins",
+                                                    "lastMileTravelString": "14.7 km",
+                                                    "iconType": "ICON_TYPE_EMPTY"
+                                                },
+                                                "availability": {
+                                                    "nextCloseTime": "2023-12-03 23:59:00",
+                                                    "opened": true
+                                                },
+                                                "badges": {},
+                                                "isOpen": true,
+                                                "aggregatedDiscountInfoV2": {},
+                                                "type": "F",
+                                                "badgesV2": {
+                                                    "entityBadges": {
+                                                        "imageBased": {},
+                                                        "textBased": {},
+                                                        "textExtendedBadges": {}
+                                                    }
+                                                },
+                                                "orderabilityCommunication": {
+                                                    "title": {},
+                                                    "subTitle": {},
+                                                    "message": {},
+                                                    "customIcon": {}
+                                                },
+                                                "differentiatedUi": {
+                                                    "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+                                                    "differentiatedUiMediaDetails": {
+                                                        "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+                                                        "lottie": {},
+                                                        "video": {}
+                                                    }
+                                                },
+                                                "reviewsSummary": {},
+                                                "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+                                                "isNewlyOnboarded": true,
+                                                "restaurantOfferPresentationInfo": {}
+                                            },
+                                            "analytics": {},
+                                            "cta": {
+                                                "link": "https://www.swiggy.com/restaurants/norukku-theeni-anna-nagar-chengalpattu-kanchipuram-723144",
+                                                "text": "RESTAURANT_MENU",
+                                                "type": "WEBLINK"
+                                            },
+                                            "widgetId": "collectionV5RestaurantListWidget_SimRestoRelevance_food_seo"
+                                        },
+                                        {
+                                            "info": {
+                                                "id": "264081",
+                                                "name": "S.A Fast Food Briyani",
+                                                "cloudinaryImageId": "xmwcep8stnbqbosqa84o",
+                                                "locality": "Chengalpattu",
+                                                "areaName": "Alapakkam",
+                                                "costForTwo": "₹250 for two",
+                                                "cuisines": [
+                                                    "Biryani",
+                                                    "Indian",
+                                                    "Chinese"
+                                                ],
+                                                "avgRating": 4,
+                                                "feeDetails": {
+                                                    "restaurantId": "264081",
+                                                    "fees": [
+                                                        {
+                                                            "name": "BASE_DISTANCE",
+                                                            "fee": 4600
+                                                        },
+                                                        {
+                                                            "name": "BASE_TIME"
+                                                        },
+                                                        {
+                                                            "name": "ANCILLARY_SURGE_FEE"
+                                                        }
+                                                    ],
+                                                    "totalFee": 4600
+                                                },
+                                                "parentId": "173642",
+                                                "avgRatingString": "4.0",
+                                                "totalRatingsString": "50+",
+                                                "sla": {
+                                                    "deliveryTime": 41,
+                                                    "lastMileTravel": 12.9,
+                                                    "serviceability": "SERVICEABLE",
+                                                    "slaString": "41 mins",
+                                                    "lastMileTravelString": "12.9 km",
+                                                    "iconType": "ICON_TYPE_EMPTY"
+                                                },
+                                                "availability": {
+                                                    "nextCloseTime": "2023-12-03 22:00:00",
+                                                    "opened": true
+                                                },
+                                                "badges": {},
+                                                "isOpen": true,
+                                                "aggregatedDiscountInfoV2": {},
+                                                "type": "F",
+                                                "badgesV2": {
+                                                    "entityBadges": {
+                                                        "imageBased": {},
+                                                        "textBased": {},
+                                                        "textExtendedBadges": {}
+                                                    }
+                                                },
+                                                "orderabilityCommunication": {
+                                                    "title": {},
+                                                    "subTitle": {},
+                                                    "message": {},
+                                                    "customIcon": {}
+                                                },
+                                                "differentiatedUi": {
+                                                    "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+                                                    "differentiatedUiMediaDetails": {
+                                                        "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+                                                        "lottie": {},
+                                                        "video": {}
+                                                    }
+                                                },
+                                                "reviewsSummary": {},
+                                                "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+                                                "restaurantOfferPresentationInfo": {}
+                                            },
+                                            "analytics": {},
+                                            "cta": {
+                                                "link": "https://www.swiggy.com/restaurants/s-a-fast-food-briyani-chengalpattu-alapakkam-kanchipuram-264081",
+                                                "text": "RESTAURANT_MENU",
+                                                "type": "WEBLINK"
+                                            },
+                                            "widgetId": "collectionV5RestaurantListWidget_SimRestoRelevance_food_seo"
+                                        },
+                                        {
+                                            "info": {
+                                                "id": "395507",
+                                                "name": "FB Cakes",
+                                                "cloudinaryImageId": "13ed25c0801d78e16087cb0be4ea3fa6",
+                                                "locality": "GST Road",
+                                                "areaName": "Chengalpattu",
+                                                "costForTwo": "₹500 for two",
+                                                "cuisines": [
+                                                    "Bakery"
+                                                ],
+                                                "avgRating": 4.1,
+                                                "feeDetails": {
+                                                    "restaurantId": "395507",
+                                                    "fees": [
+                                                        {
+                                                            "name": "BASE_DISTANCE",
+                                                            "fee": 4600
+                                                        },
+                                                        {
+                                                            "name": "BASE_TIME"
+                                                        },
+                                                        {
+                                                            "name": "ANCILLARY_SURGE_FEE"
+                                                        }
+                                                    ],
+                                                    "totalFee": 4600
+                                                },
+                                                "parentId": "245423",
+                                                "avgRatingString": "4.1",
+                                                "totalRatingsString": "500+",
+                                                "sla": {
+                                                    "deliveryTime": 43,
+                                                    "lastMileTravel": 14.9,
+                                                    "serviceability": "SERVICEABLE",
+                                                    "slaString": "43 mins",
+                                                    "lastMileTravelString": "14.9 km",
+                                                    "iconType": "ICON_TYPE_EMPTY"
+                                                },
+                                                "availability": {
+                                                    "nextCloseTime": "2023-12-03 23:00:00",
+                                                    "opened": true
+                                                },
+                                                "badges": {},
+                                                "isOpen": true,
+                                                "type": "F",
+                                                "badgesV2": {
+                                                    "entityBadges": {
+                                                        "imageBased": {},
+                                                        "textBased": {},
+                                                        "textExtendedBadges": {}
+                                                    }
+                                                },
+                                                "aggregatedDiscountInfoV3": {
+                                                    "header": "60% OFF",
+                                                    "subHeader": "ABOVE ₹99",
+                                                    "discountTag": "FLAT DEAL"
+                                                },
+                                                "orderabilityCommunication": {
+                                                    "title": {},
+                                                    "subTitle": {},
+                                                    "message": {},
+                                                    "customIcon": {}
+                                                },
+                                                "differentiatedUi": {
+                                                    "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+                                                    "differentiatedUiMediaDetails": {
+                                                        "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+                                                        "lottie": {},
+                                                        "video": {}
+                                                    }
+                                                },
+                                                "reviewsSummary": {},
+                                                "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+                                                "restaurantOfferPresentationInfo": {}
+                                            },
+                                            "analytics": {},
+                                            "cta": {
+                                                "link": "https://www.swiggy.com/restaurants/fb-cakes-gst-road-chengalpattu-kanchipuram-395507",
+                                                "text": "RESTAURANT_MENU",
+                                                "type": "WEBLINK"
+                                            },
+                                            "widgetId": "collectionV5RestaurantListWidget_SimRestoRelevance_food_seo"
+                                        },
+                                        {
+                                            "info": {
+                                                "id": "575339",
+                                                "name": "Ifthar",
+                                                "cloudinaryImageId": "ap6x5hauljvi4ajl2g1r",
+                                                "locality": "Gst Rd",
+                                                "areaName": "Chengalpattu",
+                                                "costForTwo": "₹400 for two",
+                                                "cuisines": [
+                                                    "Arabian",
+                                                    "Chinese",
+                                                    "Biryani",
+                                                    "South Indian",
+                                                    "Beverages"
+                                                ],
+                                                "avgRating": 4.2,
+                                                "feeDetails": {
+                                                    "restaurantId": "575339",
+                                                    "fees": [
+                                                        {
+                                                            "name": "BASE_DISTANCE",
+                                                            "fee": 4600
+                                                        },
+                                                        {
+                                                            "name": "BASE_TIME"
+                                                        },
+                                                        {
+                                                            "name": "ANCILLARY_SURGE_FEE"
+                                                        }
+                                                    ],
+                                                    "totalFee": 4600
+                                                },
+                                                "parentId": "4754",
+                                                "avgRatingString": "4.2",
+                                                "totalRatingsString": "1K+",
+                                                "sla": {
+                                                    "deliveryTime": 46,
+                                                    "lastMileTravel": 14.8,
+                                                    "serviceability": "SERVICEABLE",
+                                                    "slaString": "46 mins",
+                                                    "lastMileTravelString": "14.8 km",
+                                                    "iconType": "ICON_TYPE_EMPTY"
+                                                },
+                                                "availability": {
+                                                    "nextCloseTime": "2023-12-03 23:00:00",
+                                                    "opened": true
+                                                },
+                                                "badges": {},
+                                                "isOpen": true,
+                                                "aggregatedDiscountInfoV2": {},
+                                                "type": "F",
+                                                "badgesV2": {
+                                                    "entityBadges": {
+                                                        "imageBased": {},
+                                                        "textBased": {},
+                                                        "textExtendedBadges": {}
+                                                    }
+                                                },
+                                                "orderabilityCommunication": {
+                                                    "title": {},
+                                                    "subTitle": {},
+                                                    "message": {},
+                                                    "customIcon": {}
+                                                },
+                                                "differentiatedUi": {
+                                                    "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+                                                    "differentiatedUiMediaDetails": {
+                                                        "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+                                                        "lottie": {},
+                                                        "video": {}
+                                                    }
+                                                },
+                                                "reviewsSummary": {},
+                                                "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+                                                "restaurantOfferPresentationInfo": {}
+                                            },
+                                            "analytics": {},
+                                            "cta": {
+                                                "link": "https://www.swiggy.com/restaurants/ifthar-gst-rd-chengalpattu-kanchipuram-575339",
+                                                "text": "RESTAURANT_MENU",
+                                                "type": "WEBLINK"
+                                            },
+                                            "widgetId": "collectionV5RestaurantListWidget_SimRestoRelevance_food_seo"
+                                        }
+                                    ],
+                                    "theme": "SeoRestaurantListingGridWidget"
+                                }
+                            }
+                        }
+                    }
+                }
+            ],
+            "firstOffsetRequest": true,
+            "nextFetch": 3
+        },
+        "jid": "at3980b3-81a5-46a4-b43a-9c3f7292e620"
+    },
+    "statusCode": 0
+}

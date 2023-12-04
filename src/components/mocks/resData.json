@@ -1,0 +1,86 @@
+{
+    "info": {
+        "id": "689510",
+        "name": "Cream and Fudge",
+        "cloudinaryImageId": "33e152d03ba878ca40edcf846a8e99fd",
+        "locality": "CityunionBankBuilding",
+        "areaName": "Chengalpattu",
+        "costForTwo": "₹300 for two",
+        "cuisines": [
+            "Ice Cream",
+            "Beverages",
+            "Waffle"
+        ],
+        "avgRating": 4.4,
+        "veg": true,
+        "feeDetails": {
+            "restaurantId": "689510",
+            "fees": [
+                {
+                    "name": "BASE_DISTANCE",
+                    "fee": 4700
+                },
+                {
+                    "name": "BASE_TIME"
+                },
+                {
+                    "name": "ANCILLARY_SURGE_FEE"
+                }
+            ],
+            "totalFee": 4700
+        },
+        "parentId": "287",
+        "avgRatingString": "4.4",
+        "totalRatingsString": "50+",
+        "sla": {
+            "deliveryTime": 45,
+            "lastMileTravel": 11.4,
+            "serviceability": "SERVICEABLE",
+            "slaString": "45 mins",
+            "lastMileTravelString": "11.4 km",
+            "iconType": "ICON_TYPE_EMPTY"
+        },
+        "availability": {
+            "nextCloseTime": "2023-12-03 23:00:00",
+            "opened": true
+        },
+        "badges": {},
+        "isOpen": true,
+        "type": "F",
+        "badgesV2": {
+            "entityBadges": {
+                "imageBased": {},
+                "textBased": {},
+                "textExtendedBadges": {}
+            }
+        },
+        "aggregatedDiscountInfoV3": {
+            "header": "20% OFF",
+            "subHeader": "UPTO ₹100"
+        },
+        "orderabilityCommunication": {
+            "title": {},
+            "subTitle": {},
+            "message": {},
+            "customIcon": {}
+        },
+        "differentiatedUi": {
+            "displayType": "ADS_UI_DISPLAY_TYPE_ENUM_DEFAULT",
+            "differentiatedUiMediaDetails": {
+                "mediaType": "ADS_MEDIA_ENUM_IMAGE",
+                "lottie": {},
+                "video": {}
+            }
+        },
+        "reviewsSummary": {},
+        "displayType": "RESTAURANT_DISPLAY_TYPE_DEFAULT",
+        "restaurantOfferPresentationInfo": {}
+    },
+    "analytics": {},
+    "cta": {
+        "link": "https://www.swiggy.com/restaurants/cream-and-fudge-cityunionbankbuilding-chengalpattu-kanchipuram-689510",
+        "text": "RESTAURANT_MENU",
+        "type": "WEBLINK"
+    },
+    "widgetId": "collectionV5RestaurantListWidget_SimRestoRelevance_food_seo"
+}

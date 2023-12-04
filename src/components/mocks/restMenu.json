@@ -1,0 +1,2292 @@
+{
+    "statusCode": 0,
+    "data": {
+        "statusMessage": "done successfully",
+        "cards": [
+            {
+                "card": {
+                    "card": {
+                        "@type": "type.googleapis.com/swiggy.presentation.food.v2.Restaurant",
+                        "info": {
+                            "id": "252693",
+                            "name": "OYALO Pizza",
+                            "city": "Kanchipuram",
+                            "slugs": {
+                                "restaurant": "oyalo-kancheepuram-kancheepuram",
+                                "city": "kanchipuram"
+                            },
+                            "uniqueId": "e51e6528-4859-48c8-8fed-e84c17dc2d76",
+                            "cloudinaryImageId": "arnovzszmaqxyxvskcjy",
+                            "locality": "Kancheepuram",
+                            "areaName": "Nellukara St",
+                            "costForTwo": "20000",
+                            "costForTwoMessage": "₹200 for two",
+                            "cuisines": [
+                                "Pizzas"
+                            ],
+                            "avgRating": 3.7,
+                            "veg": true,
+                            "feeDetails": {
+                                "restaurantId": "252693",
+                                "fees": [
+                                    {
+                                        "name": "time"
+                                    },
+                                    {
+                                        "name": "distance",
+                                        "fee": 2000
+                                    },
+                                    {
+                                        "name": "special"
+                                    }
+                                ],
+                                "totalFee": 2000,
+                                "icon": "v1648208530/surgecreatives/info",
+                                "message": "Very Far (67.1 kms) | Additional delivery fee will apply"
+                            },
+                            "parentId": "8699",
+                            "avgRatingString": "3.7",
+                            "totalRatingsString": "500+ ratings",
+                            "sla": {
+                                "restaurantId": "252693",
+                                "lastMileTravel": 67.2,
+                                "serviceability": "NON_SERVICEABLE",
+                                "rainMode": "RAIN_MODE_NONE",
+                                "longDistance": "LONG_DISTANCE_NOT_LONG_DISTANCE",
+                                "lastMileTravelString": "67.1 km",
+                                "iconType": "ICON_TYPE_EMPTY"
+                            },
+                            "availability": {
+                                "nextOpenTimeMessage": "Opens next at 10:30 am, today",
+                                "nextOpenTime": "2023-12-04 10:30:00",
+                                "visibility": true,
+                                "restaurantClosedMeta": {}
+                            },
+                            "aggregatedDiscountInfo": {
+                                "shortDescriptionList": [
+                                    {
+                                        "discountType": "Percentage",
+                                        "operationType": "RESTAURANT"
+                                    }
+                                ],
+                                "descriptionList": [
+                                    {
+                                        "meta": "20% off up to ₹120 | Use FEDERALCC Above ₹299",
+                                        "discountType": "Percentage",
+                                        "operationType": "RESTAURANT"
+                                    }
+                                ],
+                                "visible": true
+                            },
+                            "badges": {},
+                            "slugString": "oyalo-kancheepuram-kancheepuram",
+                            "labels": [
+                                {
+                                    "title": "Timings",
+                                    "message": "null"
+                                },
+                                {
+                                    "title": "Address",
+                                    "message": "Door No 98B/1 West Raja Street, Kancheepuram Mpty, Kancheepuram(Tamil Nadu) -631501, Tamil Nadu"
+                                },
+                                {
+                                    "title": "Cuisines",
+                                    "message": "Pizzas"
+                                }
+                            ],
+                            "totalRatings": 500,
+                            "aggregatedDiscountInfoV2": {
+                                "shortDescriptionList": [
+                                    {
+                                        "discountType": "Percentage",
+                                        "operationType": "RESTAURANT"
+                                    }
+                                ],
+                                "descriptionList": [
+                                    {
+                                        "meta": "20% off up to ₹120 | Use FEDERALCC Above ₹299",
+                                        "discountType": "Percentage",
+                                        "operationType": "RESTAURANT"
+                                    }
+                                ],
+                                "couponDetailsCta": "View coupon details"
+                            },
+                            "type": "F",
+                            "headerBanner": {
+                                "url": "swiggy://webview?is_external=false&webview_url=https://www.swiggy.com/restaurant-info/252693"
+                            },
+                            "ratingSlab": "RATING_SLAB_4",
+                            "availabilityServiceabilityMessage": "Does not deliver to your location",
+                            "orderabilityCommunication": {
+                                "title": {
+                                    "text": "Wish you were"
+                                },
+                                "subTitle": {
+                                    "text": "CLOSER!"
+                                },
+                                "message": {
+                                    "text": "This location is outside the outlet's delivery area",
+                                    "textColour": "negative"
+                                },
+                                "customIcon": {
+                                    "bgGradientColorStart": "#F64C41",
+                                    "bgGradientColorEnd": "#E53554"
+                                }
+                            },
+                            "cartOrderabilityNudgeBanner": {
+                                "parameters": {},
+                                "presentation": {}
+                            },
+                            "latLong": "12.8422306,79.7012835"
+                        },
+                        "analytics": {}
+                    },
+                    "relevance": {
+                        "type": "RELEVANCE_TYPE_CHECK_ORDERABILITY_ON_ITEM_ADD",
+                        "sectionId": "POP_UP_CROUTON_MENU"
+                    }
+                }
+            },
+            {
+                "card": {
+                    "card": {
+                        "@type": "type.googleapis.com/swiggy.gandalf.widgets.v2.GridWidget",
+                        "layout": {
+                            "rows": 1,
+                            "columns": 1,
+                            "horizontalScrollEnabled": true,
+                            "itemSpacing": 12,
+                            "lineSpacing": 10,
+                            "widgetPadding": {},
+                            "containerStyle": {
+                                "containerPadding": {
+                                    "left": 10,
+                                    "right": 10,
+                                    "bottom": 16
+                                }
+                            },
+                            "scrollBar": {}
+                        },
+                        "id": "offerCollectionWidget_UX4",
+                        "gridElements": {
+                            "infoWithStyle": {
+                                "@type": "type.googleapis.com/swiggy.presentation.food.v2.OfferInfoWithStyle",
+                                "offers": [
+                                    {
+                                        "info": {
+                                            "header": "20% OFF UPTO ₹120",
+                                            "offerTagColor": "#E46D47",
+                                            "logoBottom": "rng/md/ads/production/1acdb97aadcb61b323307845bda86535",
+                                            "offerIds": [
+                                                "f06350cb-9abf-4952-b57c-8cccf46b1789"
+                                            ],
+                                            "expiryTime": "1970-01-01T00:00:00Z",
+                                            "couponCode": "USE FEDERALCC",
+                                            "description": "ABOVE ₹299",
+                                            "offerType": "offers",
+                                            "restId": "252693",
+                                            "offerLogo": "rng/md/ads/production/1acdb97aadcb61b323307845bda86535",
+                                            "descriptionTextColor": "#7302060C"
+                                        },
+                                        "cta": {
+                                            "type": "OFFER_HALF_CARD"
+                                        }
+                                    }
+                                ],
+                                "habitMilestoneInfo": {
+                                    "callout": {}
+                                }
+                            }
+                        }
+                    }
+                }
+            },
+            {
+                "groupedCard": {
+                    "cardGroupMap": {
+                        "REGULAR": {
+                            "cards": [
+                                {
+                                    "card": {
+                                        "card": {
+                                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.MenuVegFilterAndBadge",
+                                            "isPureVeg": true,
+                                            "badges": {},
+                                            "vegOnlyDetails": {
+                                                "imageId": "AutoVegOnly_qkjowj",
+                                                "title": "Showing only vegetarian options.",
+                                                "description": "Tap on the VEG ONLY button to turn off the setting"
+                                            },
+                                            "topRatedFilter": {},
+                                            "kidsCategoryFilter": {
+                                                "attributes": {
+                                                    "displayText": "Kids Favourites",
+                                                    "tooltip": {
+                                                        "enabled": true,
+                                                        "displayText": "Kids Favourites Filter applied. Remove this filter to see the full Menu."
+                                                    }
+                                                }
+                                            },
+                                            "vegFilter": {
+                                                "attributes": {
+                                                    "displayText": "VEG"
+                                                }
+                                            },
+                                            "nonvegFilter": {
+                                                "attributes": {
+                                                    "displayText": "NONVEG"
+                                                }
+                                            }
+                                        }
+                                    }
+                                },
+                                {
+                                    "card": {
+                                        "card": {
+                                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.ItemCategory",
+                                            "title": "Combos And Meals",
+                                            "itemCards": [
+                                                {
+                                                    "card": {
+                                                        "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                                        "info": {
+                                                            "id": "70293931",
+                                                            "name": "Friends Combo 2",
+                                                            "category": "Combos And Meals",
+                                                            "description": "Choice of starter + choice of veg medium pizza + choice of pasta + choice of 2 dessert",
+                                                            "imageId": "cgzbt1evvgzjqnpaghxq",
+                                                            "isVeg": 1,
+                                                            "price": 46190,
+                                                            "variants": {
+                                                                "variantGroups": [
+                                                                    {
+                                                                        "groupId": "10218292",
+                                                                        "name": "Choice of Medium Veg Pizza",
+                                                                        "variations": [
+                                                                            {
+                                                                                "name": "Cheesy Delitto - Medium Pizza",
+                                                                                "default": 1,
+                                                                                "id": "33685839",
+                                                                                "inStock": 1,
+                                                                                "isVeg": 1,
+                                                                                "isEnabled": 1
+                                                                            },
+                                                                            {
+                                                                                "name": "Piri Piri Corn - Medium Pizza",
+                                                                                "id": "33685835",
+                                                                                "isVeg": 1,
+                                                                                "isEnabled": 1
+                                                                            },
+                                                                            {
+                                                                                "name": "Farm Fresh Heaven - Medium Pizza",
+                                                                                "id": "33685836",
+                                                                                "isVeg": 1,
+                                                                                "isEnabled": 1
+                                                                            },
+                                                                            {
+                                                                                "name": "Mushroom And Onion Blast - Medium Pizza",
+                                                                                "id": "33685837",
+                                                                                "isVeg": 1,
+                                                                                "isEnabled": 1
+                                                                            },
+                                                                            {
+                                                                                "name": "Corn Olive Papricana - Medium Pizza",
+                                                                                "id": "33685838",
+                                                                                "isVeg": 1,
+                                                                                "isEnabled": 1
+                                                                            },
+                                                                            {
+                                                                                "name": "Pasta Pizza Magic - Medium Pizza",
+                                                                                "id": "36184923",
+                                                                                "isVeg": 1,
+                                                                                "isEnabled": 1
+                                                                            }
+                                                                        ]
+                                                                    },
+                                                                    {
+                                                                        "groupId": "10218288",
+                                                                        "name": "Choice of Starters",
+                                                                        "variations": [
+                                                                            {
+                                                                                "name": "Garlic Bread - Starters",
+                                                                                "default": 1,
+                                                                                "id": "33685824",
+                                                                                "inStock": 1,
+                                                                                "isVeg": 1,
+                                                                                "isEnabled": 1
+                                                                            },
+                                                                            {
+                                                                                "name": "Herby Cheesy - Starters",
+                                                                                "id": "33685825",
+                                                                                "inStock": 1,
+                                                                                "isVeg": 1,
+                                                                                "isEnabled": 1
+                                                                            },
+                                                                            {
+                                                                                "name": "Wild Parsley Wonder - Starters",
+                                                                                "id": "35574972",
+                                                                                "isVeg": 1,
+                                                                                "isEnabled": 1
+                                                                            }
+                                                                        ]
+                                                                    },
+                                                                    {
+                                                                        "groupId": "10218289",
+                                                                        "name": "Choice of Desserts 2",
+                                                                        "variations": [
+                                                                            {
+                                                                                "name": "Chocolate Lava Cake",
+                                                                                "default": 1,
+                                                                                "id": "33685826",
+                                                                                "inStock": 1,
+                                                                                "isVeg": 1,
+                                                                                "isEnabled": 1
+                                                                            },
+                                                                            {
+                                                                                "name": "Red Velvet Lava Cake",
+                                                                                "id": "38469866",
+                                                                                "inStock": 1,
+                                                                                "isVeg": 1,
+                                                                                "isEnabled": 1
+                                                                            },
+                                                                            {
+                                                                                "name": "Espresso Lava Cake",
+                                                                                "id": "33685828",
+                                                                                "isVeg": 1,
+                                                                                "isEnabled": 1
+                                                                            }
+                                                                        ]
+                                                                    },
+                                                                    {
+                                                                        "groupId": "10218290",
+                                                                        "name": "Choice of Desserts 1",
+                                                                        "variations": [
+                                                                            {
+                                                                                "name": "Chocolate Lava Cake",
+                                                                                "default": 1,
+                                                                                "id": "33685829",
+                                                                                "inStock": 1,
+                                                                                "isVeg": 1,
+                                                                                "isEnabled": 1
+                                                                            },
+                                                                            {
+                                                                                "name": "Red Velvet Lava Cake",
+                                                                                "id": "38469865",
+                                                                                "inStock": 1,
+                                                                                "isVeg": 1,
+                                                                                "isEnabled": 1
+                                                                            },
+                                                                            {
+                                                                                "name": "Espresso Lava Cake",
+                                                                                "id": "33685831",
+                                                                                "isVeg": 1,
+                                                                                "isEnabled": 1
+                                                                            }
+                                                                        ]
+                                                                    },
+                                                                    {
+                                                                        "groupId": "10218291",
+                                                                        "name": "Choice of Pasta",
+                                                                        "variations": [
+                                                                            {
+                                                                                "name": "Curried Farfalle Pasta",
+                                                                                "default": 1,
+                                                                                "id": "33685833",
+                                                                                "inStock": 1,
+                                                                                "isVeg": 1,
+                                                                                "isEnabled": 1
+                                                                            },
+                                                                            {
+                                                                                "name": "Penne Pasta With Red Sauce",
+                                                                                "id": "33685834",
+                                                                                "isVeg": 1,
+                                                                                "isEnabled": 1
+                                                                            },
+                                                                            {
+                                                                                "name": "Corn & Mushroom Lasagna",
+                                                                                "id": "36184925",
+                                                                                "isVeg": 1,
+                                                                                "isEnabled": 1
+                                                                            },
+                                                                            {
+                                                                                "name": "Creamy Alfredo Spiral Pasta",
+                                                                                "id": "41593096",
+                                                                                "isVeg": 1,
+                                                                                "isEnabled": 1
+                                                                            }
+                                                                        ]
+                                                                    }
+                                                                ]
+                                                            },
+                                                            "variantsV2": {},
+                                                            "itemAttribute": {
+                                                                "vegClassifier": "VEG"
+                                                            },
+                                                            "ribbon": {},
+                                                            "type": "ITEM",
+                                                            "itemBadge": {},
+                                                            "badgesV2": {},
+                                                            "ratings": {
+                                                                "aggregatedRating": {
+                                                                    "rating": "3.1",
+                                                                    "ratingCount": "7 ratings",
+                                                                    "ratingCountV2": "7"
+                                                                }
+                                                            }
+                                                        },
+                                                        "analytics": {},
+                                                        "hideRestaurantDetails": true
+                                                    }
+                                                },
+                                                {
+                                                    "card": {
+                                                        "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                                        "info": {
+                                                            "id": "70293932",
+                                                            "name": "Friends Combo 1",
+                                                            "category": "Combos And Meals",
+                                                            "description": "Choice of starter + choice of paneer medium pizza + choice of pasta + choice of 2 dessert",
+                                                            "imageId": "otlmtcbkjishdprl5tfx",
+                                                            "isVeg": 1,
+                                                            "price": 48571,
+                                                            "variants": {
+                                                                "variantGroups": [
+                                                                    {
+                                                                        "groupId": "10218293",
+                                                                        "name": "Choice of Starters",
+                                                                        "variations": [
+                                                                            {
+                                                                                "name": "Garlic Bread - Starters",
+                                                                                "default": 1,
+                                                                                "id": "33685841",
+                                                                                "inStock": 1,
+                                                                                "isVeg": 1,
+                                                                                "isEnabled": 1
+                                                                            },
+                                                                            {
+                                                                                "name": "Herby Cheesy - Starters",
+                                                                                "id": "33685842",
+                                                                                "inStock": 1,
+                                                                                "isVeg": 1,
+                                                                                "isEnabled": 1
+                                                                            },
+                                                                            {
+                                                                                "name": "Wild Parsley Wonder - Starters",
+                                                                                "id": "35574974",
+                                                                                "isVeg": 1,
+                                                                                "isEnabled": 1
+                                                                            }
+                                                                        ]
+                                                                    },
+                                                                    {
+                                                                        "groupId": "10218294",
+                                                                        "name": "Choice of Desserts 2",
+                                                                        "variations": [
+                                                                            {
+                                                                                "name": "Chocolate Lava Cake",
+                                                                                "default": 1,
+                                                                                "id": "33685843",
+                                                                                "inStock": 1,
+                                                                                "isVeg": 1,
+                                                                                "isEnabled": 1
+                                                                            },
+                                                                            {
+                                                                                "name": "Espresso Lava Cake",
+                                                                                "id": "33685845",
+                                                                                "inStock": 1,
+                                                                                "isVeg": 1,
+                                                                                "isEnabled": 1
+                                                                            },
+                                                                            {
+                                                                                "name": "Red Velvet Lava Cake",
+                                                                                "id": "38469868",
+                                                                                "inStock": 1,
+                                                                                "isVeg": 1,
+                                                                                "isEnabled": 1
+                                                                            }
+                                                                        ]
+                                                                    },
+                                                                    {
+                                                                        "groupId": "10218295",
+                                                                        "name": "Choice of Desserts 1",
+                                                                        "variations": [
+                                                                            {
+                                                                                "name": "Chocolate Lava Cake",
+                                                                                "default": 1,
+                                                                                "id": "33685846",
+                                                                                "inStock": 1,
+                                                                                "isVeg": 1,
+                                                                                "isEnabled": 1
+                                                                            },
+                                                                            {
+                                                                                "name": "Espresso Lava Cake",
+                                                                                "id": "33685848",
+                                                                                "inStock": 1,
+                                                                                "isVeg": 1,
+                                                                                "isEnabled": 1
+                                                                            },
+                                                                            {
+                                                                                "name": "Red Velvet Lava Cake",
+                                                                                "id": "38469867",
+                                                                                "inStock": 1,
+                                                                                "isVeg": 1,
+                                                                                "isEnabled": 1
+                                                                            }
+                                                                        ]
+                                                                    },
+                                                                    {
+                                                                        "groupId": "10218296",
+                                                                        "name": "Choice of Pasta",
+                                                                        "variations": [
+                                                                            {
+                                                                                "name": "Curried Farfalle Pasta",
+                                                                                "default": 1,
+                                                                                "id": "33685850",
+                                                                                "inStock": 1,
+                                                                                "isVeg": 1,
+                                                                                "isEnabled": 1
+                                                                            },
+                                                                            {
+                                                                                "name": "Penne Pasta With Red Sauce",
+                                                                                "id": "33685851",
+                                                                                "inStock": 1,
+                                                                                "isVeg": 1,
+                                                                                "isEnabled": 1
+                                                                            },
+                                                                            {
+                                                                                "name": "Creamy Alfredo Spiral Pasta",
+                                                                                "id": "41593097",
+                                                                                "inStock": 1,
+                                                                                "isVeg": 1,
+                                                                                "isEnabled": 1
+                                                                            },
+                                                                            {
+                                                                                "name": "Corn & Mushroom Lasagna",
+                                                                                "id": "36184927",
+                                                                                "isVeg": 1,
+                                                                                "isEnabled": 1
+                                                                            }
+                                                                        ]
+                                                                    },
+                                                                    {
+                                                                        "groupId": "10218297",
+                                                                        "name": "Choice of Medium Paneer Pizza",
+                                                                        "variations": [
+                                                                            {
+                                                                                "name": "Tandoori Paneer - Medium Pizza",
+                                                                                "default": 1,
+                                                                                "id": "33685852",
+                                                                                "inStock": 1,
+                                                                                "isVeg": 1,
+                                                                                "isEnabled": 1
+                                                                            },
+                                                                            {
+                                                                                "name": "Paneer Manchurian - Medium Pizza",
+                                                                                "id": "33685853",
+                                                                                "inStock": 1,
+                                                                                "isVeg": 1,
+                                                                                "isEnabled": 1
+                                                                            },
+                                                                            {
+                                                                                "name": "Celery Schezwan Paneer - Medium Pizza",
+                                                                                "id": "33685854",
+                                                                                "inStock": 1,
+                                                                                "isVeg": 1,
+                                                                                "isEnabled": 1
+                                                                            },
+                                                                            {
+                                                                                "name": "Cheesy Chilli Paneer - Medium Pizza",
+                                                                                "id": "33685855",
+                                                                                "inStock": 1,
+                                                                                "isVeg": 1,
+                                                                                "isEnabled": 1
+                                                                            },
+                                                                            {
+                                                                                "name": "Smokey Bbq Paneer - Medium Pizza",
+                                                                                "id": "33685856",
+                                                                                "inStock": 1,
+                                                                                "isVeg": 1,
+                                                                                "isEnabled": 1
+                                                                            },
+                                                                            {
+                                                                                "name": "Capsicum Olive Paneer - Medium Pizza",
+                                                                                "id": "35574973",
+                                                                                "inStock": 1,
+                                                                                "isVeg": 1,
+                                                                                "isEnabled": 1
+                                                                            }
+                                                                        ]
+                                                                    }
+                                                                ]
+                                                            },
+                                                            "variantsV2": {},
+                                                            "itemAttribute": {
+                                                                "vegClassifier": "VEG"
+                                                            },
+                                                            "ribbon": {},
+                                                            "type": "ITEM",
+                                                            "itemBadge": {},
+                                                            "badgesV2": {},
+                                                            "ratings": {
+                                                                "aggregatedRating": {
+                                                                    "rating": "3.0",
+                                                                    "ratingCount": "5 ratings",
+                                                                    "ratingCountV2": "5"
+                                                                }
+                                                            }
+                                                        },
+                                                        "analytics": {},
+                                                        "hideRestaurantDetails": true
+                                                    }
+                                                },
+                                                {
+                                                    "card": {
+                                                        "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                                        "info": {
+                                                            "id": "70293933",
+                                                            "name": "Meal For 2 (Medium Veg Pizza  + Pasta + Dessert)",
+                                                            "category": "Combos And Meals",
+                                                            "description": "Choice of medium veg pizza + choice of pasta + choice of dessert",
+                                                            "imageId": "hxcameeryyk2ji6joeig",
+                                                            "isVeg": 1,
+                                                            "price": 31429,
+                                                            "variants": {
+                                                                "variantGroups": [
+                                                                    {
+                                                                        "groupId": "10218298",
+                                                                        "name": "Choice of Pasta",
+                                                                        "variations": [
+                                                                            {
+                                                                                "name": "Curried Farfalle Pasta",
+                                                                                "default": 1,
+                                                                                "id": "33685858",
+                                                                                "inStock": 1,
+                                                                                "isVeg": 1,
+                                                                                "isEnabled": 1
+                                                                            },
+                                                                            {
+                                                                                "name": "Penne Pasta With Red Sauce",
+                                                                                "id": "33685859",
+                                                                                "inStock": 1,
+                                                                                "isVeg": 1,
+                                                                                "isEnabled": 1
+                                                                            },
+                                                                            {
+                                                                                "name": "Creamy Alfredo Spiral Pasta",
+                                                                                "id": "41593098",
+                                                                                "inStock": 1,
+                                                                                "isVeg": 1,
+                                                                                "isEnabled": 1
+                                                                            },
+                                                                            {
+                                                                                "name": "Corn & Mushroom Lasagna",
+                                                                                "id": "36184929",
+                                                                                "isVeg": 1,
+                                                                                "isEnabled": 1
+                                                                            }
+                                                                        ]
+                                                                    },
+                                                                    {
+                                                                        "groupId": "10218299",
+                                                                        "name": "Choice of Medium Veg Pizza",
+                                                                        "variations": [
+                                                                            {
+                                                                                "name": "Piri Piri Corn - Medium Pizza",
+                                                                                "default": 1,
+                                                                                "id": "33685860",
+                                                                                "inStock": 1,
+                                                                                "isVeg": 1,
+                                                                                "isEnabled": 1
+                                                                            },
+                                                                            {
+                                                                                "name": "Farm Fresh Heaven - Medium Pizza",
+                                                                                "id": "33685861",
+                                                                                "inStock": 1,
+                                                                                "isVeg": 1,
+                                                                                "isEnabled": 1
+                                                                            },
+                                                                            {
+                                                                                "name": "Mushroom And Onion Blast - Medium Pizza",
+                                                                                "id": "33685862",
+                                                                                "inStock": 1,
+                                                                                "isVeg": 1,
+                                                                                "isEnabled": 1
+                                                                            },
+                                                                            {
+                                                                                "name": "Corn Olive Papricana - Medium Pizza",
+                                                                                "id": "33685863",
+                                                                                "inStock": 1,
+                                                                                "isVeg": 1,
+                                                                                "isEnabled": 1
+                                                                            },
+                                                                            {
+                                                                                "name": "Cheesy Delitto - Medium Pizza",
+                                                                                "id": "33685864",
+                                                                                "inStock": 1,
+                                                                                "isVeg": 1,
+                                                                                "isEnabled": 1
+                                                                            },
+                                                                            {
+                                                                                "name": "Pasta Pizza Magic - Medium Pizza",
+                                                                                "id": "36184931",
+                                                                                "inStock": 1,
+                                                                                "isVeg": 1,
+                                                                                "isEnabled": 1
+                                                                            }
+                                                                        ]
+                                                                    },
+                                                                    {
+                                                                        "groupId": "10218300",
+                                                                        "name": "Choice of Desserts",
+                                                                        "variations": [
+                                                                            {
+                                                                                "name": "Chocolate Lava Cake",
+                                                                                "default": 1,
+                                                                                "id": "33685866",
+                                                                                "inStock": 1,
+                                                                                "isVeg": 1,
+                                                                                "isEnabled": 1
+                                                                            },
+                                                                            {
+                                                                                "name": "Espresso Lava Cake",
+                                                                                "id": "33685868",
+                                                                                "inStock": 1,
+                                                                                "isVeg": 1,
+                                                                                "isEnabled": 1
+                                                                            },
+                                                                            {
+                                                                                "name": "Red Velvet Lava Cake",
+                                                                                "id": "38469869",
+                                                                                "inStock": 1,
+                                                                                "isVeg": 1,
+                                                                                "isEnabled": 1
+                                                                            }
+                                                                        ]
+                                                                    }
+                                                                ]
+                                                            },
+                                                            "variantsV2": {},
+                                                            "itemAttribute": {
+                                                                "vegClassifier": "VEG"
+                                                            },
+                                                            "ribbon": {},
+                                                            "type": "ITEM",
+                                                            "itemBadge": {},
+                                                            "badgesV2": {},
+                                                            "ratings": {
+                                                                "aggregatedRating": {
+                                                                    "rating": "3.5",
+                                                                    "ratingCount": "19 ratings",
+                                                                    "ratingCountV2": "19"
+                                                                }
+                                                            }
+                                                        },
+                                                        "analytics": {},
+                                                        "hideRestaurantDetails": true
+                                                    }
+                                                },
+                                                {
+                                                    "card": {
+                                                        "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                                        "info": {
+                                                            "id": "70293934",
+                                                            "name": "Meal For 2 (Medium Paneer Pizza  + Pasta + Dessert)",
+                                                            "category": "Combos And Meals",
+                                                            "description": "Choice of medium paneer pizza + choice of pasta + choice of dessert",
+                                                            "imageId": "bsqo2nfsklm5v6urkggz",
+                                                            "isVeg": 1,
+                                                            "price": 33333,
+                                                            "variants": {
+                                                                "variantGroups": [
+                                                                    {
+                                                                        "groupId": "10218302",
+                                                                        "name": "Choice of Pasta",
+                                                                        "variations": [
+                                                                            {
+                                                                                "name": "Curried Farfalle Pasta",
+                                                                                "default": 1,
+                                                                                "id": "33685873",
+                                                                                "inStock": 1,
+                                                                                "isVeg": 1,
+                                                                                "isEnabled": 1
+                                                                            },
+                                                                            {
+                                                                                "name": "Penne Pasta With Red Sauce",
+                                                                                "id": "33685874",
+                                                                                "inStock": 1,
+                                                                                "isVeg": 1,
+                                                                                "isEnabled": 1
+                                                                            },
+                                                                            {
+                                                                                "name": "Creamy Alfredo Spiral Pasta",
+                                                                                "id": "41593099",
+                                                                                "inStock": 1,
+                                                                                "isVeg": 1,
+                                                                                "isEnabled": 1
+                                                                            },
+                                                                            {
+                                                                                "name": "Corn & Mushroom Lasagna",
+                                                                                "id": "41593100",
+                                                                                "isVeg": 1,
+                                                                                "isEnabled": 1
+                                                                            }
+                                                                        ]
+                                                                    },
+                                                                    {
+                                                                        "groupId": "10218303",
+                                                                        "name": "Choice of Medium Paneer Pizza",
+                                                                        "variations": [
+                                                                            {
+                                                                                "name": "Tandoori Paneer - Medium Pizza",
+                                                                                "default": 1,
+                                                                                "id": "33685875",
+                                                                                "inStock": 1,
+                                                                                "isVeg": 1,
+                                                                                "isEnabled": 1
+                                                                            },
+                                                                            {
+                                                                                "name": "Paneer Manchurian - Medium Pizza",
+                                                                                "id": "33685876",
+                                                                                "inStock": 1,
+                                                                                "isVeg": 1,
+                                                                                "isEnabled": 1
+                                                                            },
+                                                                            {
+                                                                                "name": "Celery Schezwan Paneer - Medium Pizza",
+                                                                                "id": "33685877",
+                                                                                "inStock": 1,
+                                                                                "isVeg": 1,
+                                                                                "isEnabled": 1
+                                                                            },
+                                                                            {
+                                                                                "name": "Cheesy Chilli Paneer - Medium Pizza",
+                                                                                "id": "33685878",
+                                                                                "inStock": 1,
+                                                                                "isVeg": 1,
+                                                                                "isEnabled": 1
+                                                                            },
+                                                                            {
+                                                                                "name": "Smokey Bbq Paneer - Medium Pizza",
+                                                                                "id": "33685879",
+                                                                                "inStock": 1,
+                                                                                "isVeg": 1,
+                                                                                "isEnabled": 1
+                                                                            },
+                                                                            {
+                                                                                "name": "Capsicum Olive Paneer - Medium Pizza",
+                                                                                "id": "35574978",
+                                                                                "inStock": 1,
+                                                                                "isVeg": 1,
+                                                                                "isEnabled": 1
+                                                                            },
+                                                                            {
+                                                                                "name": "Capsicum Olive Paneer - MediumPizza",
+                                                                                "id": "35574979",
+                                                                                "inStock": 1,
+                                                                                "isVeg": 1,
+                                                                                "isEnabled": 1
+                                                                            }
+                                                                        ]
+                                                                    },
+                                                                    {
+                                                                        "groupId": "10218301",
+                                                                        "name": "Choice of Desserts",
+                                                                        "variations": [
+                                                                            {
+                                                                                "name": "Chocolate Lava Cake",
+                                                                                "default": 1,
+                                                                                "id": "33685869",
+                                                                                "inStock": 1,
+                                                                                "isVeg": 1,
+                                                                                "isEnabled": 1
+                                                                            },
+                                                                            {
+                                                                                "name": "Espresso Lava Cake",
+                                                                                "id": "33685871",
+                                                                                "inStock": 1,
+                                                                                "isVeg": 1,
+                                                                                "isEnabled": 1
+                                                                            },
+                                                                            {
+                                                                                "name": "Red Velvet Lava Cake",
+                                                                                "id": "38469870",
+                                                                                "inStock": 1,
+                                                                                "isVeg": 1,
+                                                                                "isEnabled": 1
+                                                                            }
+                                                                        ]
+                                                                    }
+                                                                ]
+                                                            },
+                                                            "variantsV2": {},
+                                                            "itemAttribute": {
+                                                                "vegClassifier": "VEG"
+                                                            },
+                                                            "ribbon": {},
+                                                            "type": "ITEM",
+                                                            "itemBadge": {},
+                                                            "badgesV2": {},
+                                                            "ratings": {
+                                                                "aggregatedRating": {
+                                                                    "rating": "4.5",
+                                                                    "ratingCount": "12 ratings",
+                                                                    "ratingCountV2": "12"
+                                                                }
+                                                            }
+                                                        },
+                                                        "analytics": {},
+                                                        "hideRestaurantDetails": true
+                                                    }
+                                                },
+                                                {
+                                                    "card": {
+                                                        "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                                        "info": {
+                                                            "id": "70293935",
+                                                            "name": "Meal For 1 (Personal Pizza + Dessert)",
+                                                            "category": "Combos And Meals",
+                                                            "description": "Choice of pizza [personal]+choice of dessert",
+                                                            "imageId": "xgzntq0pdv1zykpckuln",
+                                                            "isVeg": 1,
+                                                            "price": 15238,
+                                                            "variants": {
+                                                                "variantGroups": [
+                                                                    {
+                                                                        "groupId": "10218304",
+                                                                        "name": "Choice of Desserts",
+                                                                        "variations": [
+                                                                            {
+                                                                                "name": "Chocolate Lava Cake",
+                                                                                "default": 1,
+                                                                                "id": "33685880",
+                                                                                "inStock": 1,
+                                                                                "isVeg": 1,
+                                                                                "isEnabled": 1
+                                                                            },
+                                                                            {
+                                                                                "name": "Espresso Lava Cake",
+                                                                                "id": "33685882",
+                                                                                "inStock": 1,
+                                                                                "isVeg": 1,
+                                                                                "isEnabled": 1
+                                                                            },
+                                                                            {
+                                                                                "name": "Red Velvet Lava Cake",
+                                                                                "id": "38469871",
+                                                                                "inStock": 1,
+                                                                                "isVeg": 1,
+                                                                                "isEnabled": 1
+                                                                            }
+                                                                        ]
+                                                                    },
+                                                                    {
+                                                                        "groupId": "10218305",
+                                                                        "name": "Choice of Personal Pizza",
+                                                                        "variations": [
+                                                                            {
+                                                                                "name": "Mushroom Delitto - Personal Pizza",
+                                                                                "default": 1,
+                                                                                "id": "33685883",
+                                                                                "inStock": 1,
+                                                                                "isVeg": 1,
+                                                                                "isEnabled": 1
+                                                                            },
+                                                                            {
+                                                                                "name": "Capsicum Tomatino - Personal Pizza",
+                                                                                "id": "33685884",
+                                                                                "inStock": 1,
+                                                                                "isVeg": 1,
+                                                                                "isEnabled": 1
+                                                                            },
+                                                                            {
+                                                                                "name": "Chilli Manchurian Miso - Personal Pizza",
+                                                                                "id": "33685885",
+                                                                                "inStock": 1,
+                                                                                "isVeg": 1,
+                                                                                "isEnabled": 1
+                                                                            },
+                                                                            {
+                                                                                "name": "Tandoori Paneer - Personal Pizza",
+                                                                                "id": "39461332",
+                                                                                "inStock": 1,
+                                                                                "isVeg": 1,
+                                                                                "isEnabled": 1
+                                                                            }
+                                                                        ]
+                                                                    }
+                                                                ]
+                                                            },
+                                                            "variantsV2": {},
+                                                            "itemAttribute": {
+                                                                "vegClassifier": "VEG"
+                                                            },
+                                                            "ribbon": {},
+                                                            "type": "ITEM",
+                                                            "itemBadge": {},
+                                                            "badgesV2": {},
+                                                            "ratings": {
+                                                                "aggregatedRating": {
+                                                                    "rating": "3.5",
+                                                                    "ratingCount": "16 ratings",
+                                                                    "ratingCountV2": "16"
+                                                                }
+                                                            }
+                                                        },
+                                                        "analytics": {},
+                                                        "hideRestaurantDetails": true
+                                                    }
+                                                },
+                                                {
+                                                    "card": {
+                                                        "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                                        "info": {
+                                                            "id": "70293936",
+                                                            "name": "Meal For 1 (personal Pizza + Pasta)",
+                                                            "category": "Combos And Meals",
+                                                            "description": "Choice of one personal pizza and choice of pasta",
+                                                            "imageId": "hhz4jgzppesum0glgswl",
+                                                            "isVeg": 1,
+                                                            "price": 16667,
+                                                            "variants": {
+                                                                "variantGroups": [
+                                                                    {
+                                                                        "groupId": "10218306",
+                                                                        "name": "Choice of Personal Pizza",
+                                                                        "variations": [
+                                                                            {
+                                                                                "name": "Mushroom Delitto - Personal Pizza",
+                                                                                "default": 1,
+                                                                                "id": "33685886",
+                                                                                "inStock": 1,
+                                                                                "isVeg": 1,
+                                                                                "isEnabled": 1
+                                                                            },
+                                                                            {
+                                                                                "name": "Capsicum Tomatino - Personal Pizza",
+                                                                                "id": "33685887",
+                                                                                "inStock": 1,
+                                                                                "isVeg": 1,
+                                                                                "isEnabled": 1
+                                                                            },
+                                                                            {
+                                                                                "name": "Chilli Manchurian Miso - Personal Pizza",
+                                                                                "id": "33685888",
+                                                                                "inStock": 1,
+                                                                                "isVeg": 1,
+                                                                                "isEnabled": 1
+                                                                            },
+                                                                            {
+                                                                                "name": "Tandoori Paneer - Personal Pizza",
+                                                                                "id": "39461333",
+                                                                                "inStock": 1,
+                                                                                "isVeg": 1,
+                                                                                "isEnabled": 1
+                                                                            }
+                                                                        ]
+                                                                    },
+                                                                    {
+                                                                        "groupId": "10218307",
+                                                                        "name": "Choice of Pasta",
+                                                                        "variations": [
+                                                                            {
+                                                                                "name": "Curried Farfalle Pasta",
+                                                                                "default": 1,
+                                                                                "id": "33685890",
+                                                                                "inStock": 1,
+                                                                                "isVeg": 1,
+                                                                                "isEnabled": 1
+                                                                            },
+                                                                            {
+                                                                                "name": "Penne Pasta With Red Sauce",
+                                                                                "id": "33685891",
+                                                                                "inStock": 1,
+                                                                                "isVeg": 1,
+                                                                                "isEnabled": 1
+                                                                            },
+                                                                            {
+                                                                                "name": "Creamy Alfredo Spiral Pasta",
+                                                                                "id": "41593105",
+                                                                                "inStock": 1,
+                                                                                "isVeg": 1,
+                                                                                "isEnabled": 1
+                                                                            },
+                                                                            {
+                                                                                "name": "Corn & Mushroom Lasagna",
+                                                                                "id": "36184933",
+                                                                                "isVeg": 1,
+                                                                                "isEnabled": 1
+                                                                            }
+                                                                        ]
+                                                                    }
+                                                                ]
+                                                            },
+                                                            "variantsV2": {},
+                                                            "itemAttribute": {
+                                                                "vegClassifier": "VEG"
+                                                            },
+                                                            "ribbon": {},
+                                                            "type": "ITEM",
+                                                            "itemBadge": {},
+                                                            "badgesV2": {},
+                                                            "ratings": {
+                                                                "aggregatedRating": {
+                                                                    "rating": "3.4",
+                                                                    "ratingCount": "22 ratings",
+                                                                    "ratingCountV2": "22"
+                                                                }
+                                                            }
+                                                        },
+                                                        "analytics": {},
+                                                        "hideRestaurantDetails": true
+                                                    }
+                                                }
+                                            ]
+                                        }
+                                    }
+                                },
+                                {
+                                    "card": {
+                                        "card": {
+                                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.ItemCategory",
+                                            "title": "Party Meal With Large Pizza",
+                                            "itemCards": [
+                                                {
+                                                    "card": {
+                                                        "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                                        "info": {
+                                                            "id": "78622937",
+                                                            "name": "Veg Delight Pizza [10 Inches, Large] With Starter And 2 Desserts",
+                                                            "category": "Party Meal With Large Pizza",
+                                                            "description": "Veg delight pizza [10 inches, large] with starter and 2 desserts",
+                                                            "imageId": "pn6xwbgofjzluoxr5lwn",
+                                                            "isVeg": 1,
+                                                            "price": 48095,
+                                                            "variants": {
+                                                                "variantGroups": [
+                                                                    {
+                                                                        "groupId": "12057295",
+                                                                        "name": "Choose Your Second Dessert",
+                                                                        "variations": [
+                                                                            {
+                                                                                "name": "Espresso Lava Cake",
+                                                                                "default": 1,
+                                                                                "id": "39461334",
+                                                                                "inStock": 1,
+                                                                                "isVeg": 1,
+                                                                                "isEnabled": 1
+                                                                            },
+                                                                            {
+                                                                                "name": "Chocolate Lava Cake",
+                                                                                "id": "39461335",
+                                                                                "inStock": 1,
+                                                                                "isVeg": 1,
+                                                                                "isEnabled": 1
+                                                                            },
+                                                                            {
+                                                                                "name": "Red Velvet Lava Cake",
+                                                                                "id": "39461336",
+                                                                                "inStock": 1,
+                                                                                "isVeg": 1,
+                                                                                "isEnabled": 1
+                                                                            }
+                                                                        ]
+                                                                    },
+                                                                    {
+                                                                        "groupId": "12057298",
+                                                                        "name": "Choose Your Starter",
+                                                                        "variations": [
+                                                                            {
+                                                                                "name": "Garlic Bread",
+                                                                                "default": 1,
+                                                                                "id": "39461343",
+                                                                                "inStock": 1,
+                                                                                "isVeg": 1,
+                                                                                "isEnabled": 1
+                                                                            },
+                                                                            {
+                                                                                "name": "Herby Cheesy",
+                                                                                "id": "39461344",
+                                                                                "inStock": 1,
+                                                                                "isVeg": 1,
+                                                                                "isEnabled": 1
+                                                                            },
+                                                                            {
+                                                                                "name": "Wild Parsley Wonder",
+                                                                                "id": "39461342",
+                                                                                "isVeg": 1,
+                                                                                "isEnabled": 1
+                                                                            }
+                                                                        ]
+                                                                    },
+                                                                    {
+                                                                        "groupId": "12057297",
+                                                                        "name": "Choose Your Veg Delight Large Pizza",
+                                                                        "variations": [
+                                                                            {
+                                                                                "name": "Spicy Paneer Twist",
+                                                                                "default": 1,
+                                                                                "id": "39461340",
+                                                                                "inStock": 1,
+                                                                                "isVeg": 1,
+                                                                                "isEnabled": 1
+                                                                            },
+                                                                            {
+                                                                                "name": "Tandoori Paneer",
+                                                                                "id": "39461341",
+                                                                                "inStock": 1,
+                                                                                "isVeg": 1,
+                                                                                "isEnabled": 1
+                                                                            }
+                                                                        ]
+                                                                    },
+                                                                    {
+                                                                        "groupId": "12057296",
+                                                                        "name": "Choose Your First Dessert",
+                                                                        "variations": [
+                                                                            {
+                                                                                "name": "Espresso Lava Cake",
+                                                                                "default": 1,
+                                                                                "id": "39461337",
+                                                                                "inStock": 1,
+                                                                                "isVeg": 1,
+                                                                                "isEnabled": 1
+                                                                            },
+                                                                            {
+                                                                                "name": "Chocolate Lava Cake",
+                                                                                "id": "39461338",
+                                                                                "inStock": 1,
+                                                                                "isVeg": 1,
+                                                                                "isEnabled": 1
+                                                                            },
+                                                                            {
+                                                                                "name": "Red Velvet Lava Cake",
+                                                                                "id": "39461339",
+                                                                                "inStock": 1,
+                                                                                "isVeg": 1,
+                                                                                "isEnabled": 1
+                                                                            }
+                                                                        ]
+                                                                    }
+                                                                ]
+                                                            },
+                                                            "variantsV2": {},
+                                                            "itemAttribute": {
+                                                                "vegClassifier": "VEG"
+                                                            },
+                                                            "ribbon": {},
+                                                            "type": "ITEM",
+                                                            "itemBadge": {},
+                                                            "badgesV2": {},
+                                                            "ratings": {
+                                                                "aggregatedRating": {
+                                                                    "rating": "3.9",
+                                                                    "ratingCount": "5 ratings",
+                                                                    "ratingCountV2": "5"
+                                                                }
+                                                            }
+                                                        },
+                                                        "analytics": {},
+                                                        "hideRestaurantDetails": true
+                                                    }
+                                                },
+                                                {
+                                                    "card": {
+                                                        "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                                        "info": {
+                                                            "id": "78622940",
+                                                            "name": "Veg Feast Pizza [10 Inches, Large] With Starter And 2 Desserts",
+                                                            "category": "Party Meal With Large Pizza",
+                                                            "description": "Veg feast pizza [10 inches, large] with starter and 2 desserts",
+                                                            "imageId": "prrbz7bxaafgiwmgydql",
+                                                            "isVeg": 1,
+                                                            "price": 46190,
+                                                            "variants": {
+                                                                "variantGroups": [
+                                                                    {
+                                                                        "groupId": "12057303",
+                                                                        "name": "Choose Your Starter",
+                                                                        "variations": [
+                                                                            {
+                                                                                "name": "Garlic Bread",
+                                                                                "default": 1,
+                                                                                "id": "39461359",
+                                                                                "inStock": 1,
+                                                                                "isVeg": 1,
+                                                                                "isEnabled": 1
+                                                                            },
+                                                                            {
+                                                                                "name": "Herby Cheesy",
+                                                                                "id": "39461360",
+                                                                                "inStock": 1,
+                                                                                "isVeg": 1,
+                                                                                "isEnabled": 1
+                                                                            },
+                                                                            {
+                                                                                "name": "Wild Parsley Wonder",
+                                                                                "id": "39461358",
+                                                                                "isVeg": 1,
+                                                                                "isEnabled": 1
+                                                                            }
+                                                                        ]
+                                                                    },
+                                                                    {
+                                                                        "groupId": "12057302",
+                                                                        "name": "Choose Your Veg Feast Large Pizza",
+                                                                        "variations": [
+                                                                            {
+                                                                                "name": "Hawaiian Feast",
+                                                                                "default": 1,
+                                                                                "id": "39461355",
+                                                                                "inStock": 1,
+                                                                                "isVeg": 1,
+                                                                                "isEnabled": 1
+                                                                            },
+                                                                            {
+                                                                                "name": "Giardino Feast",
+                                                                                "id": "39461356",
+                                                                                "inStock": 1,
+                                                                                "isVeg": 1,
+                                                                                "isEnabled": 1
+                                                                            },
+                                                                            {
+                                                                                "name": "Cheesy Corn",
+                                                                                "id": "39461357",
+                                                                                "inStock": 1,
+                                                                                "isVeg": 1,
+                                                                                "isEnabled": 1
+                                                                            }
+                                                                        ]
+                                                                    },
+                                                                    {
+                                                                        "groupId": "12057301",
+                                                                        "name": "Choose Your First Dessert",
+                                                                        "variations": [
+                                                                            {
+                                                                                "name": "Espresso Lava Cake",
+                                                                                "default": 1,
+                                                                                "id": "39461352",
+                                                                                "inStock": 1,
+                                                                                "isVeg": 1,
+                                                                                "isEnabled": 1
+                                                                            },
+                                                                            {
+                                                                                "name": "Chocolate Lava Cake",
+                                                                                "id": "39461353",
+                                                                                "inStock": 1,
+                                                                                "isVeg": 1,
+                                                                                "isEnabled": 1
+                                                                            },
+                                                                            {
+                                                                                "name": "Red Velvet Lava Cake",
+                                                                                "id": "39461354",
+                                                                                "inStock": 1,
+                                                                                "isVeg": 1,
+                                                                                "isEnabled": 1
+                                                                            }
+                                                                        ]
+                                                                    },
+                                                                    {
+                                                                        "groupId": "12057300",
+                                                                        "name": "Choose Your Second Dessert",
+                                                                        "variations": [
+                                                                            {
+                                                                                "name": "Espresso Lava Cake",
+                                                                                "default": 1,
+                                                                                "id": "39461349",
+                                                                                "inStock": 1,
+                                                                                "isVeg": 1,
+                                                                                "isEnabled": 1
+                                                                            },
+                                                                            {
+                                                                                "name": "Chocolate Lava Cake",
+                                                                                "id": "39461350",
+                                                                                "inStock": 1,
+                                                                                "isVeg": 1,
+                                                                                "isEnabled": 1
+                                                                            },
+                                                                            {
+                                                                                "name": "Red Velvet Lava Cake",
+                                                                                "id": "39461351",
+                                                                                "inStock": 1,
+                                                                                "isVeg": 1,
+                                                                                "isEnabled": 1
+                                                                            }
+                                                                        ]
+                                                                    }
+                                                                ]
+                                                            },
+                                                            "variantsV2": {},
+                                                            "itemAttribute": {
+                                                                "vegClassifier": "VEG"
+                                                            },
+                                                            "ribbon": {},
+                                                            "type": "ITEM",
+                                                            "itemBadge": {},
+                                                            "badgesV2": {},
+                                                            "ratings": {
+                                                                "aggregatedRating": {}
+                                                            }
+                                                        },
+                                                        "analytics": {},
+                                                        "hideRestaurantDetails": true
+                                                    }
+                                                }
+                                            ]
+                                        }
+                                    }
+                                },
+                                {
+                                    "card": {
+                                        "card": {
+                                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.ItemCategory",
+                                            "title": "Starters",
+                                            "itemCards": [
+                                                {
+                                                    "card": {
+                                                        "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                                        "info": {
+                                                            "id": "66625400",
+                                                            "name": "Herby Cheesy Bread",
+                                                            "category": "Starters",
+                                                            "description": "Flavourful herbs and heavenly cheese to start things off on the right note.",
+                                                            "imageId": "ilavbp9rb5divyiee0p6",
+                                                            "isVeg": 1,
+                                                            "price": 13333,
+                                                            "variants": {},
+                                                            "variantsV2": {},
+                                                            "itemAttribute": {
+                                                                "vegClassifier": "VEG"
+                                                            },
+                                                            "ribbon": {},
+                                                            "type": "ITEM",
+                                                            "itemBadge": {},
+                                                            "badgesV2": {},
+                                                            "ratings": {
+                                                                "aggregatedRating": {
+                                                                    "rating": "3.4",
+                                                                    "ratingCount": "30 ratings",
+                                                                    "ratingCountV2": "30"
+                                                                }
+                                                            }
+                                                        },
+                                                        "analytics": {},
+                                                        "hideRestaurantDetails": true
+                                                    }
+                                                },
+                                                {
+                                                    "card": {
+                                                        "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                                        "info": {
+                                                            "id": "66625401",
+                                                            "name": "Garlic Bread",
+                                                            "category": "Starters",
+                                                            "description": "No better way to start your meal with some delicious garlic bread topped with grated cheese.",
+                                                            "imageId": "jczy6i4re8lqganppdbt",
+                                                            "isVeg": 1,
+                                                            "price": 13333,
+                                                            "variants": {},
+                                                            "variantsV2": {},
+                                                            "itemAttribute": {
+                                                                "vegClassifier": "VEG"
+                                                            },
+                                                            "ribbon": {},
+                                                            "type": "ITEM",
+                                                            "itemBadge": {},
+                                                            "badgesV2": {},
+                                                            "ratings": {
+                                                                "aggregatedRating": {
+                                                                    "rating": "3.1",
+                                                                    "ratingCount": "18 ratings",
+                                                                    "ratingCountV2": "18"
+                                                                }
+                                                            }
+                                                        },
+                                                        "analytics": {},
+                                                        "hideRestaurantDetails": true
+                                                    }
+                                                }
+                                            ]
+                                        }
+                                    }
+                                },
+                                {
+                                    "card": {
+                                        "card": {
+                                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.ItemCategory",
+                                            "title": "Personal Pizzas",
+                                            "itemCards": [
+                                                {
+                                                    "card": {
+                                                        "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                                        "info": {
+                                                            "id": "66625404",
+                                                            "name": "Chilli Manchurian Miso",
+                                                            "category": "Personal Pizzas",
+                                                            "description": "A heady mix of miso chunks, chilli and cheese!",
+                                                            "isVeg": 1,
+                                                            "price": 13333,
+                                                            "variants": {},
+                                                            "variantsV2": {},
+                                                            "itemAttribute": {
+                                                                "vegClassifier": "VEG"
+                                                            },
+                                                            "ribbon": {},
+                                                            "type": "ITEM",
+                                                            "itemBadge": {},
+                                                            "badgesV2": {},
+                                                            "ratings": {
+                                                                "aggregatedRating": {
+                                                                    "rating": "3.8",
+                                                                    "ratingCount": "6 ratings",
+                                                                    "ratingCountV2": "6"
+                                                                }
+                                                            }
+                                                        },
+                                                        "analytics": {},
+                                                        "hideRestaurantDetails": true
+                                                    }
+                                                },
+                                                {
+                                                    "card": {
+                                                        "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                                        "info": {
+                                                            "id": "50212725",
+                                                            "name": "Capsicum Tomatino",
+                                                            "category": "Personal Pizzas",
+                                                            "description": "A beautiful assortment of capsicum and tomatoes on pizza loaded with cheese",
+                                                            "imageId": "pf5peno589wpowhfxu6q",
+                                                            "isVeg": 1,
+                                                            "price": 13333,
+                                                            "variants": {},
+                                                            "variantsV2": {},
+                                                            "itemAttribute": {
+                                                                "vegClassifier": "VEG"
+                                                            },
+                                                            "ribbon": {},
+                                                            "type": "ITEM",
+                                                            "itemBadge": {},
+                                                            "badgesV2": {},
+                                                            "ratings": {
+                                                                "aggregatedRating": {
+                                                                    "rating": "2.1",
+                                                                    "ratingCount": "4 ratings",
+                                                                    "ratingCountV2": "4"
+                                                                }
+                                                            }
+                                                        },
+                                                        "analytics": {},
+                                                        "hideRestaurantDetails": true
+                                                    }
+                                                },
+                                                {
+                                                    "card": {
+                                                        "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                                        "info": {
+                                                            "id": "78622936",
+                                                            "name": "Tandoori Paneer - Personal Pizza",
+                                                            "category": "Personal Pizzas",
+                                                            "description": "Treat your taste buds to some tandoori paneer magic with onions and mozzarella cheese.",
+                                                            "imageId": "mwcisywnkiosmd2mkwhp",
+                                                            "isVeg": 1,
+                                                            "price": 13333,
+                                                            "variants": {},
+                                                            "variantsV2": {},
+                                                            "itemAttribute": {
+                                                                "vegClassifier": "VEG"
+                                                            },
+                                                            "ribbon": {},
+                                                            "type": "ITEM",
+                                                            "itemBadge": {},
+                                                            "badgesV2": {},
+                                                            "ratings": {
+                                                                "aggregatedRating": {
+                                                                    "rating": "2.8",
+                                                                    "ratingCount": "10 ratings",
+                                                                    "ratingCountV2": "10"
+                                                                }
+                                                            }
+                                                        },
+                                                        "analytics": {},
+                                                        "hideRestaurantDetails": true
+                                                    }
+                                                }
+                                            ]
+                                        }
+                                    }
+                                },
+                                {
+                                    "card": {
+                                        "card": {
+                                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.ItemCategory",
+                                            "title": "Medium Pizzas",
+                                            "itemCards": [
+                                                {
+                                                    "card": {
+                                                        "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                                        "info": {
+                                                            "id": "81280226",
+                                                            "name": "Tandoori Paneer - Medium Pizza  ",
+                                                            "category": "Medium Pizzas",
+                                                            "description": "Treat your taste buds to some tandoori paneer magic with onions and mozzarella cheese.",
+                                                            "imageId": "mj2jei9o04xgjip6hjqz",
+                                                            "isVeg": 1,
+                                                            "price": 27619,
+                                                            "variants": {},
+                                                            "variantsV2": {},
+                                                            "itemAttribute": {
+                                                                "vegClassifier": "VEG"
+                                                            },
+                                                            "ribbon": {},
+                                                            "type": "ITEM",
+                                                            "itemBadge": {},
+                                                            "badgesV2": {},
+                                                            "ratings": {
+                                                                "aggregatedRating": {
+                                                                    "rating": "3.3",
+                                                                    "ratingCount": "4 ratings",
+                                                                    "ratingCountV2": "4"
+                                                                }
+                                                            }
+                                                        },
+                                                        "analytics": {},
+                                                        "hideRestaurantDetails": true
+                                                    }
+                                                },
+                                                {
+                                                    "card": {
+                                                        "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                                        "info": {
+                                                            "id": "66625414",
+                                                            "name": "Cheesy Chilli Paneer",
+                                                            "category": "Medium Pizzas",
+                                                            "description": "Paneer, chillies and cheese do a spicily delicious dance.",
+                                                            "imageId": "kashdhuhn3wga9oqjyja",
+                                                            "isVeg": 1,
+                                                            "price": 27619,
+                                                            "variants": {},
+                                                            "variantsV2": {},
+                                                            "itemAttribute": {
+                                                                "vegClassifier": "VEG"
+                                                            },
+                                                            "ribbon": {},
+                                                            "type": "ITEM",
+                                                            "itemBadge": {},
+                                                            "badgesV2": {},
+                                                            "ratings": {
+                                                                "aggregatedRating": {
+                                                                    "rating": "4.0",
+                                                                    "ratingCount": "43 ratings",
+                                                                    "ratingCountV2": "43"
+                                                                }
+                                                            }
+                                                        },
+                                                        "analytics": {},
+                                                        "hideRestaurantDetails": true
+                                                    }
+                                                },
+                                                {
+                                                    "card": {
+                                                        "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                                        "info": {
+                                                            "id": "66625409",
+                                                            "name": "Smoky BBQ Paneer",
+                                                            "category": "Medium Pizzas",
+                                                            "description": "Let paneer take you to the smokey side with mozzarella cheese and sweet & smokey bbq seasoning.",
+                                                            "imageId": "dwl2wyyzfv1lmipkpupa",
+                                                            "isVeg": 1,
+                                                            "price": 27619,
+                                                            "variants": {},
+                                                            "variantsV2": {},
+                                                            "itemAttribute": {
+                                                                "vegClassifier": "VEG"
+                                                            },
+                                                            "ribbon": {},
+                                                            "type": "ITEM",
+                                                            "itemBadge": {},
+                                                            "badgesV2": {},
+                                                            "ratings": {
+                                                                "aggregatedRating": {
+                                                                    "rating": "3.8",
+                                                                    "ratingCount": "10 ratings",
+                                                                    "ratingCountV2": "10"
+                                                                }
+                                                            }
+                                                        },
+                                                        "analytics": {},
+                                                        "hideRestaurantDetails": true
+                                                    }
+                                                },
+                                                {
+                                                    "card": {
+                                                        "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                                        "info": {
+                                                            "id": "66625395",
+                                                            "name": "Celery Schezwan Paneer",
+                                                            "category": "Medium Pizzas",
+                                                            "description": "Go the szechuan way with paneer, mozzarella cheese and celery.",
+                                                            "imageId": "rx9xdwm4bwahjtxuosyg",
+                                                            "isVeg": 1,
+                                                            "price": 27619,
+                                                            "variants": {},
+                                                            "variantsV2": {},
+                                                            "itemAttribute": {
+                                                                "vegClassifier": "VEG"
+                                                            },
+                                                            "ribbon": {},
+                                                            "type": "ITEM",
+                                                            "itemBadge": {},
+                                                            "badgesV2": {},
+                                                            "ratings": {
+                                                                "aggregatedRating": {
+                                                                    "rating": "4.0",
+                                                                    "ratingCount": "6 ratings",
+                                                                    "ratingCountV2": "6"
+                                                                }
+                                                            }
+                                                        },
+                                                        "analytics": {},
+                                                        "hideRestaurantDetails": true
+                                                    }
+                                                },
+                                                {
+                                                    "card": {
+                                                        "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                                        "info": {
+                                                            "id": "66625416",
+                                                            "name": "Cheesy Delitto",
+                                                            "category": "Medium Pizzas",
+                                                            "description": "Piping hot pizza topped with more cheese and more sauce",
+                                                            "imageId": "bjwqt6ocp7px9ti6w9i7",
+                                                            "isVeg": 1,
+                                                            "price": 25238,
+                                                            "variants": {},
+                                                            "variantsV2": {},
+                                                            "itemAttribute": {
+                                                                "vegClassifier": "VEG"
+                                                            },
+                                                            "ribbon": {},
+                                                            "type": "ITEM",
+                                                            "itemBadge": {},
+                                                            "badgesV2": {},
+                                                            "ratings": {
+                                                                "aggregatedRating": {
+                                                                    "rating": "3.6",
+                                                                    "ratingCount": "19 ratings",
+                                                                    "ratingCountV2": "19"
+                                                                }
+                                                            }
+                                                        },
+                                                        "analytics": {},
+                                                        "hideRestaurantDetails": true
+                                                    }
+                                                },
+                                                {
+                                                    "card": {
+                                                        "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                                        "info": {
+                                                            "id": "66625398",
+                                                            "name": "Paneer Manchurian",
+                                                            "category": "Medium Pizzas",
+                                                            "description": "Paneer, tandoori marinade, onions and mozzarella cheese.",
+                                                            "imageId": "26794ee4a1d36538b2dfd80d0544535a",
+                                                            "isVeg": 1,
+                                                            "price": 27619,
+                                                            "variants": {},
+                                                            "variantsV2": {},
+                                                            "itemAttribute": {
+                                                                "vegClassifier": "VEG"
+                                                            },
+                                                            "ribbon": {},
+                                                            "type": "ITEM",
+                                                            "itemBadge": {},
+                                                            "badgesV2": {},
+                                                            "ratings": {
+                                                                "aggregatedRating": {}
+                                                            }
+                                                        },
+                                                        "analytics": {},
+                                                        "hideRestaurantDetails": true
+                                                    }
+                                                },
+                                                {
+                                                    "card": {
+                                                        "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                                        "info": {
+                                                            "id": "72752860",
+                                                            "name": "Capsicum Olive Paneer",
+                                                            "category": "Medium Pizzas",
+                                                            "description": "Capsicum olive paneer - medium pizza",
+                                                            "isVeg": 1,
+                                                            "price": 27619,
+                                                            "variants": {},
+                                                            "variantsV2": {},
+                                                            "itemAttribute": {
+                                                                "vegClassifier": "VEG"
+                                                            },
+                                                            "ribbon": {},
+                                                            "type": "ITEM",
+                                                            "itemBadge": {},
+                                                            "badgesV2": {},
+                                                            "ratings": {
+                                                                "aggregatedRating": {}
+                                                            }
+                                                        },
+                                                        "analytics": {},
+                                                        "hideRestaurantDetails": true
+                                                    }
+                                                }
+                                            ]
+                                        }
+                                    }
+                                },
+                                {
+                                    "card": {
+                                        "card": {
+                                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.ItemCategory",
+                                            "title": "Large Pizzas",
+                                            "itemCards": [
+                                                {
+                                                    "card": {
+                                                        "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                                        "info": {
+                                                            "id": "66625399",
+                                                            "name": "Spicy Paneer Twist",
+                                                            "category": "Large Pizzas",
+                                                            "description": "Explore the chettinad side of paneer, with mozzarella cheese for company.",
+                                                            "imageId": "g9zd7hsin9kps0devi3l",
+                                                            "isVeg": 1,
+                                                            "price": 35714,
+                                                            "variants": {},
+                                                            "variantsV2": {},
+                                                            "itemAttribute": {
+                                                                "vegClassifier": "VEG"
+                                                            },
+                                                            "ribbon": {},
+                                                            "type": "ITEM",
+                                                            "itemBadge": {},
+                                                            "badgesV2": {},
+                                                            "ratings": {
+                                                                "aggregatedRating": {
+                                                                    "rating": "3.8",
+                                                                    "ratingCount": "16 ratings",
+                                                                    "ratingCountV2": "16"
+                                                                }
+                                                            }
+                                                        },
+                                                        "analytics": {},
+                                                        "hideRestaurantDetails": true
+                                                    }
+                                                },
+                                                {
+                                                    "card": {
+                                                        "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                                        "info": {
+                                                            "id": "81280225",
+                                                            "name": "Tandoori Paneer - Large Pizza   ",
+                                                            "category": "Large Pizzas",
+                                                            "description": "Treat your taste buds to some tandoori paneer magic with onions and mozzarella cheese.",
+                                                            "imageId": "u98wjoo3hx9x74birpak",
+                                                            "isVeg": 1,
+                                                            "price": 35714,
+                                                            "variants": {},
+                                                            "variantsV2": {},
+                                                            "itemAttribute": {
+                                                                "vegClassifier": "VEG"
+                                                            },
+                                                            "ribbon": {},
+                                                            "type": "ITEM",
+                                                            "itemBadge": {},
+                                                            "badgesV2": {},
+                                                            "ratings": {
+                                                                "aggregatedRating": {
+                                                                    "rating": "4.1",
+                                                                    "ratingCount": "34 ratings",
+                                                                    "ratingCountV2": "34"
+                                                                }
+                                                            }
+                                                        },
+                                                        "analytics": {},
+                                                        "hideRestaurantDetails": true
+                                                    }
+                                                },
+                                                {
+                                                    "card": {
+                                                        "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                                        "info": {
+                                                            "id": "66625413",
+                                                            "name": "Hawaiian Feast",
+                                                            "category": "Large Pizzas",
+                                                            "description": "A taste of hawaii awaits you in this pineapple, jalapeno, tomato and onion wonder.",
+                                                            "imageId": "bnwvepvrk1odlbwlm1rq",
+                                                            "isVeg": 1,
+                                                            "price": 32857,
+                                                            "variants": {},
+                                                            "variantsV2": {},
+                                                            "itemAttribute": {
+                                                                "vegClassifier": "VEG"
+                                                            },
+                                                            "ribbon": {},
+                                                            "type": "ITEM",
+                                                            "itemBadge": {},
+                                                            "badgesV2": {},
+                                                            "ratings": {
+                                                                "aggregatedRating": {
+                                                                    "rating": "2.7",
+                                                                    "ratingCount": "3 ratings",
+                                                                    "ratingCountV2": "3"
+                                                                }
+                                                            }
+                                                        },
+                                                        "analytics": {},
+                                                        "hideRestaurantDetails": true
+                                                    }
+                                                },
+                                                {
+                                                    "card": {
+                                                        "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                                        "info": {
+                                                            "id": "78622939",
+                                                            "name": "Cheesy Corn",
+                                                            "category": "Large Pizzas",
+                                                            "description": "American corn and cheese add loads of flavour to this cheese-filled dream.",
+                                                            "imageId": "jmxykdsubrnzs4ssf7ne",
+                                                            "isVeg": 1,
+                                                            "price": 32857,
+                                                            "variants": {},
+                                                            "variantsV2": {},
+                                                            "itemAttribute": {
+                                                                "vegClassifier": "VEG"
+                                                            },
+                                                            "ribbon": {},
+                                                            "type": "ITEM",
+                                                            "itemBadge": {},
+                                                            "badgesV2": {},
+                                                            "ratings": {
+                                                                "aggregatedRating": {
+                                                                    "rating": "3.6",
+                                                                    "ratingCount": "4 ratings",
+                                                                    "ratingCountV2": "4"
+                                                                }
+                                                            }
+                                                        },
+                                                        "analytics": {},
+                                                        "hideRestaurantDetails": true
+                                                    }
+                                                }
+                                            ]
+                                        }
+                                    }
+                                },
+                                {
+                                    "card": {
+                                        "card": {
+                                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.ItemCategory",
+                                            "title": "Pastas",
+                                            "itemCards": [
+                                                {
+                                                    "card": {
+                                                        "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                                        "info": {
+                                                            "id": "73592553",
+                                                            "name": "Corn And Mushroom Lasagna",
+                                                            "category": "Pastas",
+                                                            "description": "A delightful mix of flavours, courtesy of lasagna pasta, cheese, mushroom, spinach, garlic, tomato, corn, white and red sauce, and all things good.",
+                                                            "isVeg": 1,
+                                                            "price": 8095,
+                                                            "variants": {},
+                                                            "variantsV2": {},
+                                                            "itemAttribute": {
+                                                                "vegClassifier": "VEG"
+                                                            },
+                                                            "ribbon": {},
+                                                            "type": "ITEM",
+                                                            "itemBadge": {},
+                                                            "badgesV2": {},
+                                                            "ratings": {
+                                                                "aggregatedRating": {
+                                                                    "rating": "1.9",
+                                                                    "ratingCount": "5 ratings",
+                                                                    "ratingCountV2": "5"
+                                                                }
+                                                            }
+                                                        },
+                                                        "analytics": {},
+                                                        "hideRestaurantDetails": true
+                                                    }
+                                                },
+                                                {
+                                                    "card": {
+                                                        "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                                        "info": {
+                                                            "id": "60375691",
+                                                            "name": "Curried Farfalle Pasta",
+                                                            "category": "Pastas",
+                                                            "description": "Heavenly pasta made with a flavourful mix of garlic, tomato and onion.",
+                                                            "imageId": "fvu4uuwjex4msqxjklur",
+                                                            "isVeg": 1,
+                                                            "price": 8095,
+                                                            "variants": {},
+                                                            "variantsV2": {},
+                                                            "itemAttribute": {
+                                                                "vegClassifier": "VEG"
+                                                            },
+                                                            "ribbon": {},
+                                                            "type": "ITEM",
+                                                            "itemBadge": {},
+                                                            "badgesV2": {},
+                                                            "ratings": {
+                                                                "aggregatedRating": {
+                                                                    "rating": "3.6",
+                                                                    "ratingCount": "14 ratings",
+                                                                    "ratingCountV2": "14"
+                                                                }
+                                                            }
+                                                        },
+                                                        "analytics": {},
+                                                        "hideRestaurantDetails": true
+                                                    }
+                                                }
+                                            ]
+                                        }
+                                    }
+                                },
+                                {
+                                    "card": {
+                                        "card": {
+                                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.ItemCategory",
+                                            "title": "Dessertss",
+                                            "itemCards": [
+                                                {
+                                                    "card": {
+                                                        "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                                        "info": {
+                                                            "id": "50212720",
+                                                            "name": "Chocolate Lava Cake",
+                                                            "category": "Dessertss",
+                                                            "description": "Indulge in a rich chocolate cake with divine chocolate filling",
+                                                            "imageId": "toqxyfyp98deagprcqbs",
+                                                            "isVeg": 1,
+                                                            "price": 5714,
+                                                            "variants": {},
+                                                            "variantsV2": {},
+                                                            "itemAttribute": {
+                                                                "vegClassifier": "VEG"
+                                                            },
+                                                            "ribbon": {},
+                                                            "type": "ITEM",
+                                                            "itemBadge": {},
+                                                            "badgesV2": {},
+                                                            "ratings": {
+                                                                "aggregatedRating": {
+                                                                    "rating": "4.3",
+                                                                    "ratingCount": "73 ratings",
+                                                                    "ratingCountV2": "73"
+                                                                }
+                                                            }
+                                                        },
+                                                        "analytics": {},
+                                                        "hideRestaurantDetails": true
+                                                    }
+                                                },
+                                                {
+                                                    "card": {
+                                                        "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                                        "info": {
+                                                            "id": "77014599",
+                                                            "name": "Red Velvet Lava Cake",
+                                                            "category": "Dessertss",
+                                                            "description": "Finally, indulgence comes in the flavour of your dreams red velvet.",
+                                                            "imageId": "o2pgbvpfci9y2xved2r0",
+                                                            "isVeg": 1,
+                                                            "price": 5714,
+                                                            "variants": {},
+                                                            "variantsV2": {},
+                                                            "itemAttribute": {
+                                                                "vegClassifier": "VEG"
+                                                            },
+                                                            "ribbon": {},
+                                                            "type": "ITEM",
+                                                            "itemBadge": {},
+                                                            "badgesV2": {},
+                                                            "ratings": {
+                                                                "aggregatedRating": {
+                                                                    "rating": "3.9",
+                                                                    "ratingCount": "5 ratings",
+                                                                    "ratingCountV2": "5"
+                                                                }
+                                                            }
+                                                        },
+                                                        "analytics": {},
+                                                        "hideRestaurantDetails": true
+                                                    }
+                                                }
+                                            ]
+                                        }
+                                    }
+                                },
+                                {
+                                    "card": {
+                                        "card": {
+                                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.ItemCategory",
+                                            "title": "Milk Beverages",
+                                            "itemCards": [
+                                                {
+                                                    "card": {
+                                                        "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                                        "info": {
+                                                            "id": "66625408",
+                                                            "name": "Hatsun Milk Beverage 200ml - Pista",
+                                                            "category": "Milk Beverages",
+                                                            "description": "Pista experience the natural taste of pista with every sip",
+                                                            "imageId": "u4fgwkavqvwpvnztk5hv",
+                                                            "isVeg": 1,
+                                                            "price": 3810,
+                                                            "variants": {},
+                                                            "variantsV2": {},
+                                                            "itemAttribute": {
+                                                                "vegClassifier": "VEG"
+                                                            },
+                                                            "ribbon": {},
+                                                            "type": "ITEM",
+                                                            "itemBadge": {},
+                                                            "badgesV2": {},
+                                                            "ratings": {
+                                                                "aggregatedRating": {}
+                                                            }
+                                                        },
+                                                        "analytics": {},
+                                                        "hideRestaurantDetails": true
+                                                    }
+                                                },
+                                                {
+                                                    "card": {
+                                                        "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                                        "info": {
+                                                            "id": "71286889",
+                                                            "name": "Hatsun Milk Beverage 200ml - Saffron&almond",
+                                                            "category": "Milk Beverages",
+                                                            "description": "Hatsun milk beverage 200ml - saffron&almond",
+                                                            "imageId": "eissl1tvjdntymgno8fv",
+                                                            "isVeg": 1,
+                                                            "price": 3810,
+                                                            "variants": {},
+                                                            "variantsV2": {},
+                                                            "itemAttribute": {
+                                                                "vegClassifier": "VEG"
+                                                            },
+                                                            "ribbon": {},
+                                                            "type": "ITEM",
+                                                            "itemBadge": {},
+                                                            "badgesV2": {},
+                                                            "ratings": {
+                                                                "aggregatedRating": {
+                                                                    "rating": "5.0",
+                                                                    "ratingCount": "4 ratings",
+                                                                    "ratingCountV2": "4"
+                                                                }
+                                                            }
+                                                        },
+                                                        "analytics": {},
+                                                        "hideRestaurantDetails": true
+                                                    }
+                                                },
+                                                {
+                                                    "card": {
+                                                        "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                                        "info": {
+                                                            "id": "71286890",
+                                                            "name": "Hatsun Milk Beverage 200ml - Rose",
+                                                            "category": "Milk Beverages",
+                                                            "description": "Rose - a vibrant and sweet flavour, that will soothe your senses and leave you fulfilled!",
+                                                            "imageId": "mh8nkl5n0fdohymjdeli",
+                                                            "isVeg": 1,
+                                                            "price": 3810,
+                                                            "variants": {},
+                                                            "variantsV2": {},
+                                                            "itemAttribute": {
+                                                                "vegClassifier": "VEG"
+                                                            },
+                                                            "ribbon": {},
+                                                            "type": "ITEM",
+                                                            "itemBadge": {},
+                                                            "badgesV2": {},
+                                                            "ratings": {
+                                                                "aggregatedRating": {
+                                                                    "rating": "5.0",
+                                                                    "ratingCount": "3 ratings",
+                                                                    "ratingCountV2": "3"
+                                                                }
+                                                            }
+                                                        },
+                                                        "analytics": {},
+                                                        "hideRestaurantDetails": true
+                                                    }
+                                                },
+                                                {
+                                                    "card": {
+                                                        "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                                        "info": {
+                                                            "id": "71286891",
+                                                            "name": "Hatsun Milk Beverage 200ml - Vanilla",
+                                                            "category": "Milk Beverages",
+                                                            "description": "Vanilla - the classic combo of milk and vanilla to quench your summer thirst.",
+                                                            "imageId": "tpck4dfqtw1bsgt1bqkq",
+                                                            "isVeg": 1,
+                                                            "price": 3810,
+                                                            "variants": {},
+                                                            "variantsV2": {},
+                                                            "itemAttribute": {
+                                                                "vegClassifier": "VEG"
+                                                            },
+                                                            "ribbon": {},
+                                                            "type": "ITEM",
+                                                            "itemBadge": {},
+                                                            "badgesV2": {},
+                                                            "ratings": {
+                                                                "aggregatedRating": {}
+                                                            }
+                                                        },
+                                                        "analytics": {},
+                                                        "hideRestaurantDetails": true
+                                                    }
+                                                }
+                                            ]
+                                        }
+                                    }
+                                },
+                                {
+                                    "card": {
+                                        "card": {
+                                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.RestaurantLicenseInfo",
+                                            "type": "FSSAI",
+                                            "imageId": "fssai_final_edss9i",
+                                            "text": [
+                                                "License No. 12419008003023"
+                                            ]
+                                        }
+                                    }
+                                },
+                                {
+                                    "card": {
+                                        "card": {
+                                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.RestaurantAddress",
+                                            "name": "OYALO Pizza",
+                                            "area": "Nellukara St",
+                                            "completeAddress": "Door No 98B/1 West Raja Street, Kancheepuram Mpty, Kancheepuram(Tamil Nadu) -631501, Tamil Nadu"
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                }
+            }
+        ],
+        "firstOffsetRequest": true,
+        "isQCLink": false
+    },
+    "tid": "863e5fa0-7cf1-414a-9ac5-9421e93dde47",
+    "sid": "atd068eb-53fc-4d7c-872b-adc1d2db1459",
+    "deviceId": "fc01e2bd-ba5d-0f53-a7e6-dc4d12f73743",
+    "csrfToken": "AGjRoHdmIgYV-4EK1rM6H4NoJbjP1KY9Lp_tDVs0"
+}
