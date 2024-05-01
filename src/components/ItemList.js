@@ -25,11 +25,18 @@ const ItemList = ({items}) => {
                         <p className='text-xs'>{item.card.info.description}</p>
                         
                     <div className='w-3/12 p-4'>
-                      <div className='absolute'>
-                      <button className='bg-black text-white shadow-lg rounded-lg absolute p-2'
-                        onClick={() => handleAddItem(item)}>Add +</button>
-                      </div>
-                      <img src={CON_URL + item.card.info.imageId} className='w-full'/>
+
+                    <div className="menu-img-wrapper">
+
+                    <img
+                      className="menu-item-img"
+                      src={CON_URL + item.card.info.imageId}
+                      alt={item?.name}
+                    />
+
+                    <button className='bg-black text-white shadow-lg rounded-lg absolute p-2'
+                        onClick={() => handleAddItem(item)}>Add +</button>                </div>
+
                     </div>
 
                     </div>

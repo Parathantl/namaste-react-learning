@@ -5,13 +5,14 @@ import Shimmer from "./Shimmer";
 import { Link } from "react-router-dom";
 import useOnlineStatus from "../utils/useOnlineStatus";
 import UserContext from "../utils/UserContext";
+import UserOffline from "./UserOffline";
 
 const Body = () => {
     const [listOfRestaurants, setListOfRestaurants] = useState([]);
     const [filteredList, setFilteredList] = useState([]);
     const [searchValue, setSearchValue] = useState('');
 
-    const onlineStatus = useOnlineStatus();
+    const isOnline = useOnlineStatus();
 
     const { loggedInUser, setUserInfo } = useContext(UserContext);
 
@@ -30,8 +31,9 @@ const Body = () => {
         fetchData();
     }, []);
 
-    if (onlineStatus === false) {
-        return <div className="body">You are offline. Check your internet connection</div>;
+    // if user is not Online then return UserOffline component
+    if (!isOnline) {
+        return <UserOffline />
     }
 
     // Conditional Rendering
